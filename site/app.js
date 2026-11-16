@@ -1221,8 +1221,9 @@ async function main() {
     fetch("data/topics.json").then((r) => r.json()),
   ]);
   state.papers = papers;
-  papers.forEach((p, i) => {
-    p.order = i;
+  papers.forEach((p) => {
+    // Within a year: Indico friendly id, 2017 submission number or 2016 book page.
+    p.order = Number(p.id.split("-")[1]) || 0;
     p.authors ||= [];
     p.similar ||= [];
     p.sortTitle = plainTex(p.title).replace(/^[^\p{L}\p{N}]+/u, "").toLowerCase();

@@ -1,0 +1,294 @@
+{
+ "data": {
+  "values": [
+   {
+    "Year": 2016,
+    "format": "Other",
+    "Abstracts": 554,
+    "Format": "Not recorded",
+    "o": 4
+   },
+   {
+    "Year": 2017,
+    "format": "Other",
+    "Abstracts": 867,
+    "Format": "Not recorded",
+    "o": 4
+   },
+   {
+    "Year": 2018,
+    "format": "Oral",
+    "Abstracts": 440,
+    "Format": "Oral",
+    "o": 1
+   },
+   {
+    "Year": 2018,
+    "format": "Poster",
+    "Abstracts": 433,
+    "Format": "Poster",
+    "o": 2
+   },
+   {
+    "Year": 2018,
+    "format": "Other",
+    "Abstracts": 15,
+    "Format": "Not recorded",
+    "o": 4
+   },
+   {
+    "Year": 2019,
+    "format": "Oral",
+    "Abstracts": 3,
+    "Format": "Oral",
+    "o": 1
+   },
+   {
+    "Year": 2019,
+    "format": "Poster",
+    "Abstracts": 484,
+    "Format": "Poster",
+    "o": 2
+   },
+   {
+    "Year": 2019,
+    "format": "Other",
+    "Abstracts": 447,
+    "Format": "Not recorded",
+    "o": 4
+   },
+   {
+    "Year": 2020,
+    "format": "Invited",
+    "Abstracts": 15,
+    "Format": "Invited",
+    "o": 0
+   },
+   {
+    "Year": 2020,
+    "format": "Oral",
+    "Abstracts": 605,
+    "Format": "Oral",
+    "o": 1
+   },
+   {
+    "Year": 2021,
+    "format": "Invited",
+    "Abstracts": 14,
+    "Format": "Invited",
+    "o": 0
+   },
+   {
+    "Year": 2021,
+    "format": "Oral",
+    "Abstracts": 407,
+    "Format": "Oral",
+    "o": 1
+   },
+   {
+    "Year": 2021,
+    "format": "Poster",
+    "Abstracts": 267,
+    "Format": "Poster",
+    "o": 2
+   },
+   {
+    "Year": 2022,
+    "format": "Invited",
+    "Abstracts": 12,
+    "Format": "Invited",
+    "o": 0
+   },
+   {
+    "Year": 2022,
+    "format": "Oral",
+    "Abstracts": 361,
+    "Format": "Oral",
+    "o": 1
+   },
+   {
+    "Year": 2022,
+    "format": "Poster",
+    "Abstracts": 134,
+    "Format": "Poster",
+    "o": 2
+   },
+   {
+    "Year": 2023,
+    "format": "Invited",
+    "Abstracts": 12,
+    "Format": "Invited",
+    "o": 0
+   },
+   {
+    "Year": 2023,
+    "format": "Oral",
+    "Abstracts": 434,
+    "Format": "Oral",
+    "o": 1
+   },
+   {
+    "Year": 2023,
+    "format": "Poster",
+    "Abstracts": 268,
+    "Format": "Poster",
+    "o": 2
+   },
+   {
+    "Year": 2023,
+    "format": "Online",
+    "Abstracts": 175,
+    "Format": "Online",
+    "o": 3
+   },
+   {
+    "Year": 2024,
+    "format": "Invited",
+    "Abstracts": 12,
+    "Format": "Invited",
+    "o": 0
+   },
+   {
+    "Year": 2024,
+    "format": "Oral",
+    "Abstracts": 387,
+    "Format": "Oral",
+    "o": 1
+   },
+   {
+    "Year": 2024,
+    "format": "Poster",
+    "Abstracts": 238,
+    "Format": "Poster",
+    "o": 2
+   },
+   {
+    "Year": 2024,
+    "format": "Online",
+    "Abstracts": 104,
+    "Format": "Online",
+    "o": 3
+   },
+   {
+    "Year": 2025,
+    "format": "Invited",
+    "Abstracts": 11,
+    "Format": "Invited",
+    "o": 0
+   },
+   {
+    "Year": 2025,
+    "format": "Oral",
+    "Abstracts": 309,
+    "Format": "Oral",
+    "o": 1
+   },
+   {
+    "Year": 2025,
+    "format": "Poster",
+    "Abstracts": 104,
+    "Format": "Poster",
+    "o": 2
+   },
+   {
+    "Year": 2025,
+    "format": "Online",
+    "Abstracts": 104,
+    "Format": "Online",
+    "o": 3
+   },
+   {
+    "Year": 2026,
+    "format": "Invited",
+    "Abstracts": 14,
+    "Format": "Invited",
+    "o": 0
+   },
+   {
+    "Year": 2026,
+    "format": "Oral",
+    "Abstracts": 445,
+    "Format": "Oral",
+    "o": 1
+   },
+   {
+    "Year": 2026,
+    "format": "Poster",
+    "Abstracts": 373,
+    "Format": "Poster",
+    "o": 2
+   },
+   {
+    "Year": 2026,
+    "format": "Online",
+    "Abstracts": 67,
+    "Format": "Online",
+    "o": 3
+   }
+  ]
+ },
+ "mark": {
+  "type": "bar",
+  "cornerRadiusTopLeft": 2,
+  "cornerRadiusTopRight": 2
+ },
+ "encoding": {
+  "color": {
+   "field": "Format",
+   "scale": {
+    "domain": [
+     "Invited",
+     "Oral",
+     "Poster",
+     "Online",
+     "Not recorded"
+    ]
+   },
+   "sort": [
+    "Invited",
+    "Oral",
+    "Poster",
+    "Online",
+    "Not recorded"
+   ],
+   "type": "nominal"
+  },
+  "order": {
+   "field": "o",
+   "type": "quantitative"
+  },
+  "tooltip": [
+   {
+    "field": "Year",
+    "type": "ordinal"
+   },
+   {
+    "field": "Format",
+    "type": "nominal"
+   },
+   {
+    "aggregate": "sum",
+    "field": "Abstracts",
+    "title": "Abstracts",
+    "type": "quantitative"
+   }
+  ],
+  "x": {
+   "axis": {
+    "labelAngle": 0
+   },
+   "field": "Year",
+   "title": null,
+   "type": "ordinal"
+  },
+  "y": {
+   "aggregate": "sum",
+   "field": "Abstracts",
+   "title": "Abstracts",
+   "type": "quantitative"
+  }
+ },
+ "height": 260,
+ "width": "container",
+ "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json"
+}

@@ -25,7 +25,7 @@ proceedings to link to. What is online:
 ## Features
 
 - **List and map views.** A list (newest, oldest, title, best match) and a 2D
-  map of the abstracts clustered into topics from text embeddings.
+  map of the abstracts clustered into 39 topics from text embeddings (bge-m3).
 - **Search and filters.** Full-text search over titles, authors,
   affiliations, sessions and abstracts; year range; presentation format;
   topic; a single mini-symposium (click a session in the reading pane or the

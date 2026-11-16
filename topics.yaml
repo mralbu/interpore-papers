@@ -2,8 +2,50 @@
 #
 # Topic ids come from `just topics` output and are only stable while the
 # corpus and embeddings are unchanged: re-check this file after either changes.
+# Names written Nov 2026 from each topic's keywords and a sample of titles
+# (bge-m3, 39 topics).
 #
 # merge: fold the listed topics into the first id of each group.
-# rename: replace the c-TF-IDF keyword label of a topic.
+# rename: replace the c-TF-IDF keyword label of a topic, either with a name or
+#   with {name, short} (short is the map label).
 merge: []
-rename: {}
+rename:
+  0: {name: "Microbially induced carbonate precipitation", short: "MICP"}
+  1: {name: "Gas hydrates in sediments", short: "Gas hydrates"}
+  2: {name: "Electrodes, fuel cells and batteries", short: "Electrochemical devices"}
+  3: {name: "Inks, printing and droplet absorption", short: "Inks and printing"}
+  4: {name: "NMR relaxometry and MRI", short: "NMR and MRI"}
+  5: {name: "Blood, brain and biological tissue", short: "Biological tissue"}
+  6: {name: "Wellbore cement integrity", short: "Wellbore cement"}
+  7: {name: "Lattice Boltzmann methods", short: "Lattice Boltzmann"}
+  8: {name: "Adsorbents, catalysts and gas separation", short: "Adsorbents"}
+  9: {name: "Trapped bubbles and Ostwald ripening", short: "Bubbles"}
+  10: {name: "CO2 storage and trapping", short: "CO2 storage"}
+  11: {name: "Underground hydrogen storage", short: "Hydrogen storage"}
+  12: {name: "Freezing, ice and thermal energy storage", short: "Freezing and heat storage"}
+  13: {name: "Biofilms and bacterial transport", short: "Biofilms"}
+  14: {name: "Soil water and root uptake", short: "Soil water"}
+  15: {name: "Wood and bound water", short: "Wood"}
+  16: {name: "Salt crystallization and building materials", short: "Salt crystallization"}
+  17: {name: "Nanoconfined fluids and adsorption", short: "Nanoconfinement"}
+  18: {name: "Groundwater contamination and remediation (PFAS, NAPL)", short: "Remediation"}
+  19: {name: "Heat transfer and thermal properties", short: "Heat transfer"}
+  20: {name: "Particle and colloid transport, filtration", short: "Colloids and filtration"}
+  21: {name: "Viscous fingering and instabilities", short: "Viscous fingering"}
+  22: {name: "Drying, wicking and evaporation", short: "Drying and wicking"}
+  23: {name: "Coal and coalbed methane", short: "Coal"}
+  24: {name: "Fractures, geomechanics and numerical methods", short: "Fractures and geomechanics"}
+  25: {name: "Shale gas, kerogen and adsorption", short: "Shale gas"}
+  26: {name: "Mixing, dispersion and reactive transport", short: "Mixing and dispersion"}
+  27: {name: "Mineral dissolution and precipitation", short: "Dissolution"}
+  28: {name: "CO2 EOR and heavy oil", short: "CO2 EOR"}
+  29: {name: "Spontaneous imbibition", short: "Imbibition"}
+  30: {name: "Foam and nanoparticles for gas mobility control", short: "Foam"}
+  31: {name: "Machine learning and uncertainty quantification", short: "Machine learning"}
+  32: {name: "Oil reservoirs and tight-oil petrophysics", short: "Oil reservoirs"}
+  33: {name: "Imaging, digital rock and pore networks", short: "Digital rock"}
+  34: {name: "Multiphase flow modelling (phase field, VOF)", short: "Interface modelling"}
+  35: {name: "Low-salinity water and wettability alteration", short: "Low salinity"}
+  36: {name: "Chemical EOR (polymer, surfactant, emulsions)", short: "Chemical EOR"}
+  37: {name: "Capillarity, wettability and two-phase displacement", short: "Two-phase displacement"}
+  38: {name: "Free flow coupled to porous media", short: "Free-flow coupling"}

@@ -1,0 +1,906 @@
+{
+ "data": {
+  "values": [
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2016,
+    "Share": 2.0,
+    "Abstracts": 11
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2017,
+    "Share": 0.7,
+    "Abstracts": 6
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2018,
+    "Share": 2.6,
+    "Abstracts": 23
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2019,
+    "Share": 1.7,
+    "Abstracts": 16
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2020,
+    "Share": 2.4,
+    "Abstracts": 15
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2021,
+    "Share": 3.2,
+    "Abstracts": 22
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2022,
+    "Share": 6.1,
+    "Abstracts": 31
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2023,
+    "Share": 10.1,
+    "Abstracts": 90
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2024,
+    "Share": 11.7,
+    "Abstracts": 87
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2025,
+    "Share": 16.3,
+    "Abstracts": 86
+   },
+   {
+    "Term": "Hydrogen storage",
+    "Year": 2026,
+    "Share": 15.0,
+    "Abstracts": 135
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2016,
+    "Share": 0.4,
+    "Abstracts": 2
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2017,
+    "Share": 0.7,
+    "Abstracts": 6
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2018,
+    "Share": 1.4,
+    "Abstracts": 12
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2019,
+    "Share": 2.7,
+    "Abstracts": 25
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2020,
+    "Share": 5.5,
+    "Abstracts": 34
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2021,
+    "Share": 6.2,
+    "Abstracts": 43
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2022,
+    "Share": 8.9,
+    "Abstracts": 45
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2023,
+    "Share": 7.3,
+    "Abstracts": 65
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2024,
+    "Share": 11.6,
+    "Abstracts": 86
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2025,
+    "Share": 11.0,
+    "Abstracts": 58
+   },
+   {
+    "Term": "Machine learning",
+    "Year": 2026,
+    "Share": 9.6,
+    "Abstracts": 86
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2016,
+    "Share": 15.2,
+    "Abstracts": 84
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2017,
+    "Share": 13.4,
+    "Abstracts": 116
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2018,
+    "Share": 16.8,
+    "Abstracts": 149
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2019,
+    "Share": 14.6,
+    "Abstracts": 136
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2020,
+    "Share": 20.8,
+    "Abstracts": 129
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2021,
+    "Share": 17.3,
+    "Abstracts": 119
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2022,
+    "Share": 19.9,
+    "Abstracts": 101
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2023,
+    "Share": 24.6,
+    "Abstracts": 219
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2024,
+    "Share": 29.1,
+    "Abstracts": 216
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2025,
+    "Share": 32.2,
+    "Abstracts": 170
+   },
+   {
+    "Term": "CO2 storage",
+    "Year": 2026,
+    "Share": 25.3,
+    "Abstracts": 227
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2016,
+    "Share": 2.3,
+    "Abstracts": 13
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2017,
+    "Share": 3.9,
+    "Abstracts": 34
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2018,
+    "Share": 3.7,
+    "Abstracts": 33
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2019,
+    "Share": 3.1,
+    "Abstracts": 29
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2020,
+    "Share": 4.2,
+    "Abstracts": 26
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2021,
+    "Share": 5.2,
+    "Abstracts": 36
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2022,
+    "Share": 4.1,
+    "Abstracts": 21
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2023,
+    "Share": 7.1,
+    "Abstracts": 63
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2024,
+    "Share": 3.9,
+    "Abstracts": 29
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2025,
+    "Share": 8.5,
+    "Abstracts": 45
+   },
+   {
+    "Term": "Geothermal",
+    "Year": 2026,
+    "Share": 5.0,
+    "Abstracts": 45
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2016,
+    "Share": 8.7,
+    "Abstracts": 48
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2017,
+    "Share": 4.7,
+    "Abstracts": 41
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2018,
+    "Share": 6.8,
+    "Abstracts": 60
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2019,
+    "Share": 7.1,
+    "Abstracts": 66
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2020,
+    "Share": 6.9,
+    "Abstracts": 43
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2021,
+    "Share": 8.4,
+    "Abstracts": 58
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2022,
+    "Share": 12.6,
+    "Abstracts": 64
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2023,
+    "Share": 9.1,
+    "Abstracts": 81
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2024,
+    "Share": 9.7,
+    "Abstracts": 72
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2025,
+    "Share": 12.7,
+    "Abstracts": 67
+   },
+   {
+    "Term": "Microfluidics",
+    "Year": 2026,
+    "Share": 10.6,
+    "Abstracts": 95
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2016,
+    "Share": 6.3,
+    "Abstracts": 35
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2017,
+    "Share": 4.0,
+    "Abstracts": 35
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2018,
+    "Share": 3.2,
+    "Abstracts": 28
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2019,
+    "Share": 6.0,
+    "Abstracts": 56
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2020,
+    "Share": 5.3,
+    "Abstracts": 33
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2021,
+    "Share": 6.4,
+    "Abstracts": 44
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2022,
+    "Share": 5.5,
+    "Abstracts": 28
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2023,
+    "Share": 6.2,
+    "Abstracts": 55
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2024,
+    "Share": 5.3,
+    "Abstracts": 39
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2025,
+    "Share": 4.5,
+    "Abstracts": 24
+   },
+   {
+    "Term": "Batteries & fuel cells",
+    "Year": 2026,
+    "Share": 5.9,
+    "Abstracts": 53
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2016,
+    "Share": 8.7,
+    "Abstracts": 48
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2017,
+    "Share": 4.4,
+    "Abstracts": 38
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2018,
+    "Share": 8.8,
+    "Abstracts": 78
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2019,
+    "Share": 9.2,
+    "Abstracts": 86
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2020,
+    "Share": 5.3,
+    "Abstracts": 33
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2021,
+    "Share": 9.0,
+    "Abstracts": 62
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2022,
+    "Share": 8.1,
+    "Abstracts": 41
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2023,
+    "Share": 10.6,
+    "Abstracts": 94
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2024,
+    "Share": 5.9,
+    "Abstracts": 44
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2025,
+    "Share": 11.6,
+    "Abstracts": 61
+   },
+   {
+    "Term": "Biology & biofilms",
+    "Year": 2026,
+    "Share": 10.2,
+    "Abstracts": 92
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2016,
+    "Share": 16.6,
+    "Abstracts": 92
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2017,
+    "Share": 20.6,
+    "Abstracts": 179
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2018,
+    "Share": 19.4,
+    "Abstracts": 172
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2019,
+    "Share": 18.0,
+    "Abstracts": 168
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2020,
+    "Share": 20.8,
+    "Abstracts": 129
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2021,
+    "Share": 18.3,
+    "Abstracts": 126
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2022,
+    "Share": 22.3,
+    "Abstracts": 113
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2023,
+    "Share": 23.7,
+    "Abstracts": 211
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2024,
+    "Share": 20.2,
+    "Abstracts": 150
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2025,
+    "Share": 20.5,
+    "Abstracts": 108
+   },
+   {
+    "Term": "Imaging (CT, synchrotron, NMR)",
+    "Year": 2026,
+    "Share": 23.2,
+    "Abstracts": 209
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2016,
+    "Share": 10.1,
+    "Abstracts": 56
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2017,
+    "Share": 9.5,
+    "Abstracts": 82
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2018,
+    "Share": 7.9,
+    "Abstracts": 70
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2019,
+    "Share": 9.0,
+    "Abstracts": 84
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2020,
+    "Share": 9.5,
+    "Abstracts": 59
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2021,
+    "Share": 9.0,
+    "Abstracts": 62
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2022,
+    "Share": 13.6,
+    "Abstracts": 69
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2023,
+    "Share": 10.3,
+    "Abstracts": 92
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2024,
+    "Share": 9.2,
+    "Abstracts": 68
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2025,
+    "Share": 7.4,
+    "Abstracts": 39
+   },
+   {
+    "Term": "Pore-network models",
+    "Year": 2026,
+    "Share": 11.9,
+    "Abstracts": 107
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2016,
+    "Share": 5.8,
+    "Abstracts": 32
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2017,
+    "Share": 4.7,
+    "Abstracts": 41
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2018,
+    "Share": 5.5,
+    "Abstracts": 49
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2019,
+    "Share": 6.1,
+    "Abstracts": 57
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2020,
+    "Share": 6.8,
+    "Abstracts": 42
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2021,
+    "Share": 6.7,
+    "Abstracts": 46
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2022,
+    "Share": 6.1,
+    "Abstracts": 31
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2023,
+    "Share": 4.5,
+    "Abstracts": 40
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2024,
+    "Share": 6.6,
+    "Abstracts": 49
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2025,
+    "Share": 3.6,
+    "Abstracts": 19
+   },
+   {
+    "Term": "Lattice Boltzmann",
+    "Year": 2026,
+    "Share": 3.6,
+    "Abstracts": 32
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2016,
+    "Share": 0.7,
+    "Abstracts": 4
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2017,
+    "Share": 1.3,
+    "Abstracts": 11
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2018,
+    "Share": 1.1,
+    "Abstracts": 10
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2019,
+    "Share": 1.8,
+    "Abstracts": 17
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2020,
+    "Share": 1.1,
+    "Abstracts": 7
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2021,
+    "Share": 2.3,
+    "Abstracts": 16
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2022,
+    "Share": 2.2,
+    "Abstracts": 11
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2023,
+    "Share": 1.2,
+    "Abstracts": 11
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2024,
+    "Share": 2.0,
+    "Abstracts": 15
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2025,
+    "Share": 0.8,
+    "Abstracts": 4
+   },
+   {
+    "Term": "Phase-field",
+    "Year": 2026,
+    "Share": 1.3,
+    "Abstracts": 12
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2016,
+    "Share": 13.5,
+    "Abstracts": 75
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2017,
+    "Share": 16.8,
+    "Abstracts": 146
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2018,
+    "Share": 23.6,
+    "Abstracts": 210
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2019,
+    "Share": 18.4,
+    "Abstracts": 172
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2020,
+    "Share": 21.8,
+    "Abstracts": 135
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2021,
+    "Share": 16.7,
+    "Abstracts": 115
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2022,
+    "Share": 14.0,
+    "Abstracts": 71
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2023,
+    "Share": 14.1,
+    "Abstracts": 125
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2024,
+    "Share": 22.3,
+    "Abstracts": 165
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2025,
+    "Share": 16.7,
+    "Abstracts": 88
+   },
+   {
+    "Term": "Fractures",
+    "Year": 2026,
+    "Share": 16.2,
+    "Abstracts": 146
+   }
+  ]
+ },
+ "facet": {
+  "field": "Term",
+  "sort": [
+   "Hydrogen storage",
+   "Machine learning",
+   "CO2 storage",
+   "Geothermal",
+   "Microfluidics",
+   "Batteries & fuel cells",
+   "Biology & biofilms",
+   "Imaging (CT, synchrotron, NMR)",
+   "Pore-network models",
+   "Lattice Boltzmann",
+   "Phase-field",
+   "Fractures"
+  ],
+  "title": null,
+  "type": "nominal"
+ },
+ "spec": {
+  "layer": [
+   {
+    "mark": {
+     "type": "line",
+     "point": {
+      "filled": true,
+      "size": 28
+     },
+     "strokeWidth": 2
+    },
+    "encoding": {
+     "x": {
+      "axis": {
+       "labelAngle": 0,
+       "values": [
+        2016,
+        2020,
+        2024
+       ]
+      },
+      "field": "Year",
+      "title": null,
+      "type": "ordinal"
+     },
+     "y": {
+      "field": "Share",
+      "title": "% of abstracts",
+      "type": "quantitative"
+     }
+    }
+   },
+   {
+    "mark": {
+     "type": "point",
+     "opacity": 0,
+     "size": 400
+    },
+    "encoding": {
+     "tooltip": [
+      {
+       "field": "Term",
+       "type": "nominal"
+      },
+      {
+       "field": "Year",
+       "type": "ordinal"
+      },
+      {
+       "field": "Share",
+       "title": "% of abstracts",
+       "type": "quantitative"
+      },
+      {
+       "field": "Abstracts",
+       "type": "quantitative"
+      }
+     ],
+     "x": {
+      "axis": {
+       "labelAngle": 0,
+       "values": [
+        2016,
+        2020,
+        2024
+       ]
+      },
+      "field": "Year",
+      "title": null,
+      "type": "ordinal"
+     },
+     "y": {
+      "field": "Share",
+      "title": "% of abstracts",
+      "type": "quantitative"
+     }
+    }
+   }
+  ],
+  "height": 105,
+  "width": 150
+ },
+ "columns": 4,
+ "resolve": {
+  "scale": {
+   "y": "independent"
+  }
+ },
+ "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json"
+}

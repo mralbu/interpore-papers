@@ -1,0 +1,976 @@
+{
+ "society": {
+  "name": "International Society for Porous Media (InterPore)",
+  "founded": 2008,
+  "seat": "De Bilt, The Netherlands",
+  "about": "A non-profit, independent scientific organisation established in 2008 to advance and disseminate knowledge for the understanding, description and modelling of natural and industrial porous media systems: soils, aquifers, oil and gas reservoirs, biological tissues and plants, but also fuel cells, concrete, textiles, polymer composites and in-tissue drug delivery.",
+  "url": "https://www.interpore.org/about-interpore",
+  "issn": "2518-3826 (books of abstracts, electronic)"
+ },
+ "totals": {
+  "abstracts": 8115,
+  "meetings": 18,
+  "meetings_with_abstracts": 11,
+  "first_year_with_abstracts": 2016,
+  "authors": 12896,
+  "countries": 10
+ },
+ "meetings": [
+  {
+   "number": 1,
+   "year": 2009,
+   "title": "InterPore2009",
+   "start": "2009-03-14",
+   "end": "2009-03-17",
+   "city": "Kaiserslautern",
+   "country": "Germany",
+   "venue": "Fraunhofer ITWM",
+   "format": "in-person",
+   "notes": "The first conference and annual meeting of the society, a year after it was founded, hosted by the Fraunhofer Institute for Industrial Mathematics (ITWM)."
+  },
+  {
+   "number": 2,
+   "year": 2010,
+   "title": "InterPore2010",
+   "start": "2010-03-14",
+   "end": "2010-03-17",
+   "city": "College Station, Texas",
+   "country": "USA",
+   "venue": "Texas A&M University",
+   "format": "in-person",
+   "notes": "The first meeting in North America."
+  },
+  {
+   "number": 3,
+   "year": 2011,
+   "title": "InterPore2011",
+   "start": "2011-03-29",
+   "end": "2011-03-31",
+   "city": "Bordeaux",
+   "country": "France",
+   "format": "in-person"
+  },
+  {
+   "number": 4,
+   "year": 2012,
+   "title": "InterPore2012",
+   "start": "2012-05-14",
+   "end": "2012-05-16",
+   "city": "West Lafayette, Indiana",
+   "country": "USA",
+   "venue": "Purdue University",
+   "format": "in-person",
+   "notes": "From this meeting on the conference moved from March to May."
+  },
+  {
+   "number": 5,
+   "year": 2013,
+   "title": "InterPore2013",
+   "start": "2013-05-21",
+   "end": "2013-05-24",
+   "city": "Prague",
+   "country": "Czech Republic",
+   "format": "in-person"
+  },
+  {
+   "number": 6,
+   "year": 2014,
+   "title": "InterPore2014",
+   "start": "2014-05-27",
+   "end": "2014-05-30",
+   "city": "Milwaukee, Wisconsin",
+   "country": "USA",
+   "format": "in-person"
+  },
+  {
+   "number": 7,
+   "year": 2015,
+   "title": "InterPore2015",
+   "start": "2015-05-18",
+   "end": "2015-05-21",
+   "city": "Padova",
+   "country": "Italy",
+   "format": "in-person"
+  },
+  {
+   "number": 8,
+   "year": 2016,
+   "title": "InterPore2016",
+   "start": "2016-05-09",
+   "end": "2016-05-12",
+   "city": "Cincinnati, Ohio",
+   "country": "USA",
+   "format": "in-person",
+   "page": "https://interpore.org/node/887",
+   "book": "https://www.interpore.org/sites/default/files/2025-02/Book_of_Abstracts_InterPore_2016_red.pdf",
+   "notes": "The oldest meeting whose book of abstracts is online, organised in themed minisymposia. The book carries the ISSN used for all later InterPore books of abstracts.",
+   "stats": {
+    "abstracts": 554,
+    "formats": {
+     "Other": 554
+    },
+    "sessions": 53,
+    "authors": 1359,
+    "new_authors": null,
+    "mean_authors": 3.34,
+    "terms": [
+     "finite element",
+     "drainage imbibition",
+     "fluid-fluid interfaces",
+     "darcy law",
+     "reservoir simulators",
+     "steady state",
+     "shale matrix",
+     "electrical conductivity"
+    ],
+    "top_sessions": [
+     {
+      "name": "Pore-scale simulation and upscaling technology in unconventional oil/gas reservoirs",
+      "n": 22
+     },
+     {
+      "name": "Pore-scale modeling and experiments on multiphase flow in porous media",
+      "n": 22
+     },
+     {
+      "name": "Fundamentals of enhanced oil recovery: experimental and modelling techniques",
+      "n": 20
+     },
+     {
+      "name": "Minisymposium in honor of Geoffrey Mason",
+      "n": 19
+     },
+     {
+      "name": "Mixing and reaction in permeable media from pore to continuum scale",
+      "n": 19
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 15,
+      "name": "Wood",
+      "n": 16,
+      "lift": 2.11
+     },
+     {
+      "id": 5,
+      "name": "Biological tissue",
+      "n": 11,
+      "lift": 1.83
+     },
+     {
+      "id": 2,
+      "name": "Electrochemical devices",
+      "n": 34,
+      "lift": 1.82
+     }
+    ]
+   }
+  },
+  {
+   "number": 9,
+   "year": 2017,
+   "title": "InterPore2017",
+   "start": "2017-05-08",
+   "end": "2017-05-11",
+   "city": "Rotterdam",
+   "country": "The Netherlands",
+   "venue": "De Doelen International Congress Centre",
+   "format": "in-person",
+   "page": "https://interpore.org/node/888",
+   "book": "https://www.interpore.org/sites/default/files/2025-02/InterPore2017%20-%20Book%20of%20Abstracts_red.pdf",
+   "stats": {
+    "abstracts": 867,
+    "formats": {
+     "Other": 867
+    },
+    "sessions": 73,
+    "authors": 2070,
+    "new_authors": 1641,
+    "mean_authors": 3.39,
+    "terms": [
+     "pore water",
+     "ordinary differential",
+     "retention curve",
+     "viscous forces",
+     "electrical double",
+     "darcy law",
+     "cement paste",
+     "transport phenomena"
+    ],
+    "top_sessions": [
+     {
+      "name": "Minisymposium 1.3",
+      "n": 45
+     },
+     {
+      "name": "General Session 3",
+      "n": 30
+     },
+     {
+      "name": "General Session 4",
+      "n": 28
+     },
+     {
+      "name": "Minisymposium 1.5",
+      "n": 24
+     },
+     {
+      "name": "Minisymposium 2.28",
+      "n": 23
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 4,
+      "name": "NMR and MRI",
+      "n": 18,
+      "lift": 2.41
+     },
+     {
+      "id": 12,
+      "name": "Freezing and heat storage",
+      "n": 25,
+      "lift": 2.07
+     },
+     {
+      "id": 16,
+      "name": "Salt crystallization",
+      "n": 29,
+      "lift": 1.88
+     }
+    ]
+   }
+  },
+  {
+   "number": 10,
+   "year": 2018,
+   "title": "InterPore2018",
+   "start": "2018-05-14",
+   "end": "2018-05-17",
+   "city": "New Orleans, Louisiana",
+   "country": "USA",
+   "venue": "Ernest N. Morial Convention Center",
+   "format": "in-person",
+   "indico": 2,
+   "notes": "The 10th annual meeting and Jubilee celebration, and the first one run on the society's own Indico server (events.interpore.org).",
+   "indico_url": "https://events.interpore.org/event/2/",
+   "stats": {
+    "abstracts": 888,
+    "formats": {
+     "Oral": 440,
+     "Poster": 433,
+     "Other": 15
+    },
+    "sessions": 83,
+    "authors": 2101,
+    "new_authors": 1465,
+    "mean_authors": 3.49,
+    "terms": [
+     "hydraulic fracturing",
+     "gas production",
+     "urea hydrolysis",
+     "microbially induced",
+     "numerical schemes",
+     "throat size",
+     "galerkin finite",
+     "tight oil"
+    ],
+    "top_sessions": [
+     {
+      "name": "12: Fluids in Nanoporous Media",
+      "n": 36
+     },
+     {
+      "name": "GS 1: Fundamental theories of porous media",
+      "n": 30
+     },
+     {
+      "name": "24: Pore structure characterization and micro-scale effect on fluid flow in unconventional reservoir",
+      "n": 27
+     },
+     {
+      "name": "GS 4: Porous media applications (renamed)",
+      "n": 26
+     },
+     {
+      "name": "01: Multi-scale Particulates Transport through Porous Media Saturated with Multi-Phase Fluids",
+      "n": 25
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 0,
+      "name": "MICP",
+      "n": 22,
+      "lift": 2.16
+     },
+     {
+      "id": 8,
+      "name": "Adsorbents",
+      "n": 16,
+      "lift": 1.78
+     },
+     {
+      "id": 32,
+      "name": "Oil reservoirs",
+      "n": 30,
+      "lift": 1.66
+     }
+    ]
+   }
+  },
+  {
+   "number": 11,
+   "year": 2019,
+   "title": "InterPore2019",
+   "start": "2019-05-06",
+   "end": "2019-05-10",
+   "city": "Valencia",
+   "country": "Spain",
+   "venue": "Valencia Conference Centre",
+   "format": "in-person",
+   "indico": 12,
+   "page": "https://interpore.org/node/889",
+   "program": "https://www.interpore.org/sites/default/files/2025-02/InterPore2019%20-%20Conference%20Program_red.pdf",
+   "notes": "Organised by the Universitat Politècnica de València.",
+   "indico_url": "https://events.interpore.org/event/12/",
+   "stats": {
+    "abstracts": 934,
+    "formats": {
+     "Oral": 3,
+     "Poster": 484,
+     "Other": 447
+    },
+    "sessions": 22,
+    "authors": 2269,
+    "new_authors": 1363,
+    "mean_authors": 3.52,
+    "terms": [
+     "kinetic energy",
+     "navier-stokes equations",
+     "particle image",
+     "spatial discretization",
+     "random walk",
+     "diffusion equation",
+     "electrochemical reactions",
+     "calcium carbonate"
+    ],
+    "top_sessions": [
+     {
+      "name": "Pore-scale modelling",
+      "n": 96
+     },
+     {
+      "name": "Physics of multi-phase flow in diverse porous media",
+      "n": 91
+     },
+     {
+      "name": "Flow, transport and mechanics in fractured porous media",
+      "n": 87
+     },
+     {
+      "name": "Mathematical and numerical methods for multi-scale multi-physics, nonlinear coupled processes",
+      "n": 68
+     },
+     {
+      "name": "Mixing, dispersion and reaction processes across scales in heterogeneous and fractured media",
+      "n": 55
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 0,
+      "name": "MICP",
+      "n": 19,
+      "lift": 1.78
+     },
+     {
+      "id": 35,
+      "name": "Low salinity",
+      "n": 26,
+      "lift": 1.63
+     },
+     {
+      "id": 23,
+      "name": "Coal",
+      "n": 17,
+      "lift": 1.57
+     }
+    ]
+   }
+  },
+  {
+   "number": 12,
+   "year": 2020,
+   "title": "InterPore2020",
+   "start": "2020-08-31",
+   "end": "2020-09-04",
+   "city": "Online",
+   "format": "online",
+   "indico": 23,
+   "page": "https://interpore.org/node/890",
+   "book": "https://www.interpore.org/sites/default/files/2025-02/InterPore2020%20-%20Book%20of%20Abstracts_red.pdf",
+   "program": "https://www.interpore.org/sites/default/files/2025-02/InterPore2020%20-%20Conference%20Program_red.pdf",
+   "notes": "Moved online, and from May to late August, after the COVID-19 outbreak; over 700 participants joined, with pre-recorded talks and live Q&A.",
+   "indico_url": "https://events.interpore.org/event/23/",
+   "stats": {
+    "abstracts": 620,
+    "formats": {
+     "Invited": 15,
+     "Oral": 605
+    },
+    "sessions": 25,
+    "authors": 1724,
+    "new_authors": 1017,
+    "mean_authors": 3.88,
+    "terms": [
+     "water flooding",
+     "organic matter",
+     "oilfield development",
+     "crude oil",
+     "fractal geometry",
+     "natural fractures",
+     "shale gas",
+     "tight reservoirs"
+    ],
+    "top_sessions": [
+     {
+      "name": "Pore-scale modelling",
+      "n": 68
+     },
+     {
+      "name": "Physics of multi-phase flow in diverse porous media",
+      "n": 57
+     },
+     {
+      "name": "Mathematical and numerical methods for multi-scale multi-physics, nonlinear coupled processes",
+      "n": 53
+     },
+     {
+      "name": "Porous Media for a Green World: Energy & Climate",
+      "n": 50
+     },
+     {
+      "name": "Flow, transport and mechanics in fractured porous media",
+      "n": 49
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 32,
+      "name": "Oil reservoirs",
+      "n": 25,
+      "lift": 1.98
+     },
+     {
+      "id": 25,
+      "name": "Shale gas",
+      "n": 55,
+      "lift": 1.91
+     },
+     {
+      "id": 38,
+      "name": "Free-flow coupling",
+      "n": 10,
+      "lift": 1.68
+     }
+    ]
+   }
+  },
+  {
+   "number": 13,
+   "year": 2021,
+   "title": "InterPore2021",
+   "start": "2021-05-31",
+   "end": "2021-06-04",
+   "city": "Online",
+   "format": "online",
+   "indico": 25,
+   "page": "https://interpore.org/node/891",
+   "book": "https://www.interpore.org/sites/default/files/2025-02/InterPore2021%20-%20Book%20of%20Abstracts_red.pdf",
+   "program": "https://www.interpore.org/sites/default/files/2025-02/InterPore2021%20-%20Conference%20Program_red.pdf",
+   "notes": "Planned as an online conference from the outset, with on-demand access to hundreds of pre-recorded presentations.",
+   "indico_url": "https://events.interpore.org/event/25/",
+   "stats": {
+    "abstracts": 688,
+    "formats": {
+     "Invited": 14,
+     "Oral": 407,
+     "Poster": 267
+    },
+    "sessions": 26,
+    "authors": 1799,
+    "new_authors": 981,
+    "mean_authors": 3.62,
+    "terms": [
+     "hydraulic parameters",
+     "soil water",
+     "domain decomposition",
+     "darcy velocity",
+     "imbibition dynamics",
+     "neural networks",
+     "immiscible fluids",
+     "richards equation"
+    ],
+    "top_sessions": [
+     {
+      "name": "Pore-scale modelling",
+      "n": 54
+     },
+     {
+      "name": "Physics of multi-phase flow in diverse porous media",
+      "n": 52
+     },
+     {
+      "name": "Mathematical and numerical methods for multi-scale multi-physics, nonlinear coupled processes",
+      "n": 45
+     },
+     {
+      "name": "Interfacial phenomena in multiphase systems",
+      "n": 44
+     },
+     {
+      "name": "Flow, transport and mechanics in fractured porous media",
+      "n": 43
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 14,
+      "name": "Soil water",
+      "n": 37,
+      "lift": 2.51
+     },
+     {
+      "id": 21,
+      "name": "Viscous fingering",
+      "n": 13,
+      "lift": 2.07
+     },
+     {
+      "id": 31,
+      "name": "Machine learning",
+      "n": 34,
+      "lift": 1.71
+     }
+    ]
+   }
+  },
+  {
+   "number": 14,
+   "year": 2022,
+   "title": "InterPore2022",
+   "start": "2022-05-30",
+   "end": "2022-06-02",
+   "city": "Abu Dhabi",
+   "country": "United Arab Emirates",
+   "format": "hybrid",
+   "indico": 40,
+   "page": "https://interpore.org/node/892",
+   "book": "https://www.interpore.org/sites/default/files/2025-02/InterPore2022%20-%20Book%20of%20Abstracts_red.pdf",
+   "program": "https://www.interpore.org/sites/default/files/2025-02/InterPore2022%20-%20Conference%20Program_red.pdf",
+   "report": "https://www.interpore.org/wp-content/uploads/2022/09/InterPore2022_Conference_Report_1.pdf",
+   "notes": "The return to an in-person meeting after two online years, with online participation as well; the first InterPore meeting in the Middle East.",
+   "indico_url": "https://events.interpore.org/event/40/",
+   "stats": {
+    "abstracts": 507,
+    "formats": {
+     "Invited": 12,
+     "Oral": 361,
+     "Poster": 134
+    },
+    "sessions": 25,
+    "authors": 1405,
+    "new_authors": 628,
+    "mean_authors": 3.72,
+    "terms": [
+     "multiscale pore",
+     "deep learning",
+     "throat size",
+     "capillary pressure",
+     "water transport",
+     "surface area",
+     "convolutional neural",
+     "contact angles"
+    ],
+    "top_sessions": [
+     {
+      "name": "Pore-scale modelling",
+      "n": 52
+     },
+     {
+      "name": "Physics of multiphase flow in diverse porous media",
+      "n": 37
+     },
+     {
+      "name": "Machine Learning and Big Data in Porous Media",
+      "n": 36
+     },
+     {
+      "name": "Interfacial phenomena in multiphase systems",
+      "n": 36
+     },
+     {
+      "name": "Mathematical and numerical methods for multi-scale multi-physics, nonlinear coupled processes",
+      "n": 34
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 3,
+      "name": "Inks and printing",
+      "n": 13,
+      "lift": 2.21
+     },
+     {
+      "id": 29,
+      "name": "Imbibition",
+      "n": 11,
+      "lift": 2.02
+     },
+     {
+      "id": 18,
+      "name": "Remediation",
+      "n": 19,
+      "lift": 1.75
+     }
+    ]
+   }
+  },
+  {
+   "number": 15,
+   "year": 2023,
+   "title": "InterPore2023",
+   "start": "2023-05-22",
+   "end": "2023-05-25",
+   "city": "Edinburgh",
+   "country": "United Kingdom",
+   "venue": "Edinburgh International Conference Centre (EICC)",
+   "format": "hybrid",
+   "indico": 41,
+   "page": "https://interpore.org/node/893",
+   "book": "https://www.interpore.org/sites/default/files/2025-02/InterPore2023%20-%20Book%20of%20Abstracts_red.pdf",
+   "program": "https://www.interpore.org/sites/default/files/2025-02/InterPore2023%20-%20Conference%20Program_red.pdf",
+   "notes": "The first InterPore conference held in the UK, hosted by Heriot-Watt University, with energy-transition themes (carbon storage, hydrogen, geothermal) next to classic subsurface flow.",
+   "indico_url": "https://events.interpore.org/event/41/",
+   "stats": {
+    "abstracts": 889,
+    "formats": {
+     "Invited": 12,
+     "Oral": 434,
+     "Poster": 268,
+     "Online": 175
+    },
+    "sessions": 25,
+    "authors": 2399,
+    "new_authors": 1281,
+    "mean_authors": 3.82,
+    "terms": [
+     "energy transition",
+     "hydrogen storage",
+     "climate change",
+     "carbon emissions",
+     "depleted gas",
+     "image processing",
+     "formation brine",
+     "advection-diffusion equation"
+    ],
+    "top_sessions": [
+     {
+      "name": "Porous Media for a Green World: Energy & Climate",
+      "n": 100
+     },
+     {
+      "name": "Pore-scale modelling",
+      "n": 82
+     },
+     {
+      "name": "Flow, transport and mechanics in fractured porous media",
+      "n": 61
+     },
+     {
+      "name": "Physics of multiphase flow in diverse porous media",
+      "n": 59
+     },
+     {
+      "name": "Mixing, dispersion and reaction processes across scales in heterogeneous and fractured media",
+      "n": 58
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 9,
+      "name": "Bubbles",
+      "n": 13,
+      "lift": 2.01
+     },
+     {
+      "id": 11,
+      "name": "Hydrogen storage",
+      "n": 37,
+      "lift": 1.78
+     },
+     {
+      "id": 18,
+      "name": "Remediation",
+      "n": 32,
+      "lift": 1.68
+     }
+    ]
+   }
+  },
+  {
+   "number": 16,
+   "year": 2024,
+   "title": "InterPore2024",
+   "start": "2024-05-13",
+   "end": "2024-05-16",
+   "city": "Qingdao",
+   "country": "China",
+   "venue": "Shangri-La Hotel",
+   "format": "hybrid",
+   "indico": 46,
+   "page": "https://interpore.org/node/894",
+   "book": "https://www.interpore.org/sites/default/files/2025-02/InterPore2024%20-%20Book%20of%20Abstracts_red.pdf",
+   "program": "https://www.interpore.org/sites/default/files/2025-02/InterPore2024%20-%20Conference%20Program_Red.pdf",
+   "notes": "The first meeting in Asia, with the focus theme \"porous media and biology\"; over 800 participants were expected.",
+   "indico_url": "https://events.interpore.org/event/46/",
+   "stats": {
+    "abstracts": 741,
+    "formats": {
+     "Invited": 12,
+     "Oral": 387,
+     "Poster": 238,
+     "Online": 104
+    },
+    "sessions": 23,
+    "authors": 1893,
+    "new_authors": 1084,
+    "mean_authors": 3.82,
+    "terms": [
+     "shale oil",
+     "gas reservoirs",
+     "deep learning",
+     "hydrogen storage",
+     "south china",
+     "microfluidic chip",
+     "reservoir development",
+     "nuclear magnetic"
+    ],
+    "top_sessions": [
+     {
+      "name": "Porous Media for a Green World: Energy & Climate",
+      "n": 78
+     },
+     {
+      "name": "Flow, transport and mechanics in fractured porous media",
+      "n": 75
+     },
+     {
+      "name": "Pore-scale modelling",
+      "n": 63
+     },
+     {
+      "name": "Machine Learning and Big Data in Porous Media",
+      "n": 58
+     },
+     {
+      "name": "Fluids in Nanoporous Media",
+      "n": 56
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 28,
+      "name": "CO2 EOR",
+      "n": 28,
+      "lift": 3.16
+     },
+     {
+      "id": 1,
+      "name": "Gas hydrates",
+      "n": 21,
+      "lift": 3.03
+     },
+     {
+      "id": 11,
+      "name": "Hydrogen storage",
+      "n": 37,
+      "lift": 2.13
+     }
+    ]
+   }
+  },
+  {
+   "number": 17,
+   "year": 2025,
+   "title": "InterPore2025",
+   "start": "2025-05-19",
+   "end": "2025-05-22",
+   "city": "Albuquerque, New Mexico",
+   "country": "USA",
+   "format": "hybrid",
+   "indico": 56,
+   "page": "https://www.interpore.org/event/interpore2025",
+   "indico_url": "https://events.interpore.org/event/56/",
+   "stats": {
+    "abstracts": 528,
+    "formats": {
+     "Invited": 11,
+     "Oral": 309,
+     "Poster": 104,
+     "Online": 104
+    },
+    "sessions": 28,
+    "authors": 1462,
+    "new_authors": 765,
+    "mean_authors": 3.81,
+    "terms": [
+     "hydrogen storage",
+     "carbon mineralization",
+     "energy production",
+     "mineral dissolution",
+     "microbial activity",
+     "fluid-rock interactions",
+     "human health",
+     "salt caverns"
+    ],
+    "top_sessions": [
+     {
+      "name": "Physics of multiphase flow in diverse porous media",
+      "n": 38
+     },
+     {
+      "name": "Pore-scale modelling",
+      "n": 34
+     },
+     {
+      "name": "Porous Media for a Green World: Energy & Climate",
+      "n": 31
+     },
+     {
+      "name": "Mechanisms Across Scales in Subsurface CO2 storage: A Special Session in Honor of Sally Benson",
+      "n": 30
+     },
+     {
+      "name": "Mixing, dispersion and reaction processes across scales in heterogeneous and fractured media",
+      "n": 30
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 11,
+      "name": "Hydrogen storage",
+      "n": 38,
+      "lift": 3.07
+     },
+     {
+      "id": 27,
+      "name": "Dissolution",
+      "n": 37,
+      "lift": 2.27
+     },
+     {
+      "id": 13,
+      "name": "Biofilms",
+      "n": 21,
+      "lift": 2.15
+     }
+    ]
+   }
+  },
+  {
+   "number": 18,
+   "year": 2026,
+   "title": "InterPore2026",
+   "start": "2026-05-19",
+   "end": "2026-05-22",
+   "city": "Nantes",
+   "country": "France",
+   "format": "hybrid",
+   "indico": 58,
+   "page": "https://interpore.org/node/976",
+   "notes": "Preceded by a day of conference courses on May 18.",
+   "indico_url": "https://events.interpore.org/event/58/",
+   "stats": {
+    "abstracts": 899,
+    "formats": {
+     "Invited": 14,
+     "Oral": 445,
+     "Poster": 373,
+     "Online": 67
+    },
+    "sessions": 20,
+    "authors": 2418,
+    "new_authors": 1312,
+    "mean_authors": 3.96,
+    "terms": [
+     "hydrogen storage",
+     "energy systems",
+     "pore-scale transport",
+     "artificial intelligence",
+     "mechanical response",
+     "structural heterogeneity",
+     "dynamic evolution",
+     "practical guidance"
+    ],
+    "top_sessions": [
+     {
+      "name": "Pore-Scale Physics and Modeling",
+      "n": 97
+     },
+     {
+      "name": "Porous Media for a Green World: Energy & Climate",
+      "n": 90
+     },
+     {
+      "name": "Physics of multiphase flow in diverse porous media",
+      "n": 75
+     },
+     {
+      "name": "Mixing, dispersion and reaction processes across scales in heterogeneous and fractured media",
+      "n": 60
+     },
+     {
+      "name": "Environmental Porous Media: Water, Agriculture, and Remediation",
+      "n": 59
+     }
+    ],
+    "top_topics": [
+     {
+      "id": 11,
+      "name": "Hydrogen storage",
+      "n": 52,
+      "lift": 2.47
+     },
+     {
+      "id": 13,
+      "name": "Biofilms",
+      "n": 30,
+      "lift": 1.81
+     },
+     {
+      "id": 19,
+      "name": "Heat transfer",
+      "n": 46,
+      "lift": 1.69
+     }
+    ]
+   }
+  },
+  {
+   "number": 19,
+   "year": 2027,
+   "title": "InterPore2027",
+   "start": "2027-05-10",
+   "end": "2027-05-13",
+   "city": "Rio de Janeiro",
+   "country": "Brazil",
+   "venue": "Windsor Barra Hotel",
+   "page": "https://www.interpore.org/event/ip2027",
+   "upcoming": true,
+   "notes": "The first meeting in South America (upcoming)."
+  }
+ ]
+}

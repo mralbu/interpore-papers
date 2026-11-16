@@ -125,7 +125,10 @@ def load_overrides(path: Path = OVERRIDES) -> dict:
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     return {
         "merge": [[int(i) for i in group] for group in data.get("merge") or []],
-        "rename": {int(k): str(v) for k, v in (data.get("rename") or {}).items()},
+        "rename": {
+            int(k): str(v["name"] if isinstance(v, dict) else v)
+            for k, v in (data.get("rename") or {}).items()
+        },
     }
 
 

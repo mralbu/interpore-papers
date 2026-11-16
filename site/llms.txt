@@ -1,0 +1,61 @@
+# InterPore Abstracts Explorer
+
+> An explorer for 8,115 abstracts of the annual meetings of the International Society for Porous Media (InterPore), 2016–2026: flow, transport and mechanics in natural and industrial porous media, grouped by topic. InterPore publishes abstracts, not full papers; each entry links to its page on events.interpore.org (2018 on) or its page in the book of abstracts (2016, 2017).
+
+- Abstracts are the authors' own text as submitted; this site adds topics, a map and similar-abstract links (from text embeddings), nothing written by an AI.
+- No abstracts are online for the 2009–2015 meetings; they appear only in the History view.
+- Each abstract has a page at `https://mralbu.github.io/interpore-papers/#<ID>` (e.g. `#IP2024-164`).
+
+## Topics
+
+- [Fractures, geomechanics and numerical methods](https://mralbu.github.io/interpore-papers/llms/fractures-geomechanics-and-numerical-methods.txt): 1047 abstracts. Keywords: fracture, fractures, fractured, numerical, matrix, hydraulic
+- [Capillarity, wettability and two-phase displacement](https://mralbu.github.io/interpore-papers/llms/capillarity-wettability-and-two-phase-displacement.txt): 658 abstracts. Keywords: capillary pressure, fluid, wettability, displacement, contact, phase
+- [CO2 storage and trapping](https://mralbu.github.io/interpore-papers/llms/co2-storage-and-trapping.txt): 511 abstracts. Keywords: co2, storage, trapping, carbon, injection, dissolution
+- [Imaging, digital rock and pore networks](https://mralbu.github.io/interpore-papers/llms/imaging-digital-rock-and-pore-networks.txt): 480 abstracts. Keywords: images, rock, image, digital, pore, resolution
+- [Shale gas, kerogen and adsorption](https://mralbu.github.io/interpore-papers/llms/shale-gas-kerogen-and-adsorption.txt): 376 abstracts. Keywords: shale gas, pore, adsorption, pores, organic, kerogen
+- [Mixing, dispersion and reactive transport](https://mralbu.github.io/interpore-papers/llms/mixing-dispersion-and-reactive-transport.txt): 370 abstracts. Keywords: mixing, reactive transport, solute, dispersion, reaction, reactions
+- [Electrodes, fuel cells and batteries](https://mralbu.github.io/interpore-papers/llms/electrodes-fuel-cells-and-batteries.txt): 274 abstracts. Keywords: electrode, electrodes, gdl, fuel, electrochemical, cell
+- [Mineral dissolution and precipitation](https://mralbu.github.io/interpore-papers/llms/mineral-dissolution-and-precipitation.txt): 250 abstracts. Keywords: dissolution, reactive transport, mineral, reaction, precipitation, rates
+- [Heat transfer and thermal properties](https://mralbu.github.io/interpore-papers/llms/heat-transfer-and-thermal-properties.txt): 245 abstracts. Keywords: thermal conductivity, heat transfer, materials, temperature, material, structures
+- [Multiphase flow modelling (phase field, VOF)](https://mralbu.github.io/interpore-papers/llms/multiphase-flow-modelling-phase-field-vof.txt): 236 abstracts. Keywords: numerical, interface, fluid, multiphase, two-phase, simulations
+- [Machine learning and uncertainty quantification](https://mralbu.github.io/interpore-papers/llms/machine-learning-and-uncertainty-quantification.txt): 235 abstracts. Keywords: machine learning, uncertainty, neural, reservoir, permeability, training
+- [Chemical EOR (polymer, surfactant, emulsions)](https://mralbu.github.io/interpore-papers/llms/chemical-eor-polymer-surfactant-emulsions.txt): 213 abstracts. Keywords: oil recovery, polymer, flooding, emulsion, surfactant, water
+- [Nanoconfined fluids and adsorption](https://mralbu.github.io/interpore-papers/llms/nanoconfined-fluids-and-adsorption.txt): 211 abstracts. Keywords: nanoporous, adsorption, confined, materials, pore, molecular
+- [Particle and colloid transport, filtration](https://mralbu.github.io/interpore-papers/llms/particle-and-colloid-transport-filtration.txt): 197 abstracts. Keywords: particles, particle, transport, deposition, colloid, filtration
+- [Underground hydrogen storage](https://mralbu.github.io/interpore-papers/llms/underground-hydrogen-storage.txt): 190 abstracts. Keywords: hydrogen storage, h2, uhs, underground hydrogen, gas, energy
+- [Soil water and root uptake](https://mralbu.github.io/interpore-papers/llms/soil-water-and-root-uptake.txt): 174 abstracts. Keywords: soil water, root, soils, unsaturated, suction, infiltration
+- [Groundwater contamination and remediation (PFAS, NAPL)](https://mralbu.github.io/interpore-papers/llms/groundwater-contamination-and-remediation-pfas-napl.txt): 174 abstracts. Keywords: pfas, groundwater, remediation, napl, nzvi, water
+- [Oil reservoirs and tight-oil petrophysics](https://mralbu.github.io/interpore-papers/llms/oil-reservoirs-and-tight-oil-petrophysics.txt): 165 abstracts. Keywords: reservoir, oil, water, permeability, production, reservoirs
+- [Foam and nanoparticles for gas mobility control](https://mralbu.github.io/interpore-papers/llms/foam-and-nanoparticles-for-gas-mobility-control.txt): 159 abstracts. Keywords: foam generation, nanoparticles, surfactant, gas, oil, injection
+- [Biofilms and bacterial transport](https://mralbu.github.io/interpore-papers/llms/biofilms-and-bacterial-transport.txt): 150 abstracts. Keywords: biofilm growth, bacteria, bacterial, biofilms, soil, transport
+- [Salt crystallization and building materials](https://mralbu.github.io/interpore-papers/llms/salt-crystallization-and-building-materials.txt): 144 abstracts. Keywords: salt, crystallization, water, evaporation, concrete, drying
+- [Low-salinity water and wettability alteration](https://mralbu.github.io/interpore-papers/llms/low-salinity-water-and-wettability-alteration.txt): 139 abstracts. Keywords: oil recovery, salinity water, wettability alteration, brine, crude oil, surface
+- [Lattice Boltzmann methods](https://mralbu.github.io/interpore-papers/llms/lattice-boltzmann-methods.txt): 125 abstracts. Keywords: lattice boltzmann, boltzmann lbm, simulation, drying, pore, permeability
+- [Drying, wicking and evaporation](https://mralbu.github.io/interpore-papers/llms/drying-wicking-and-evaporation.txt): 120 abstracts. Keywords: drying, liquid, evaporation, wicking, pore network, capillary
+- [Freezing, ice and thermal energy storage](https://mralbu.github.io/interpore-papers/llms/freezing-ice-and-thermal-energy-storage.txt): 113 abstracts. Keywords: ice, heat storage, freezing, water, energy, temperature
+- [Wood and bound water](https://mralbu.github.io/interpore-papers/llms/wood-and-bound-water.txt): 111 abstracts. Keywords: wood, bound water, drying, cellulose, swelling, moisture
+- [CO2 EOR and heavy oil](https://mralbu.github.io/interpore-papers/llms/co2-eor-and-heavy-oil.txt): 97 abstracts. Keywords: oil recovery, co2, flooding, injection, huff puff, huff-n-puff
+- [Inks, printing and droplet absorption](https://mralbu.github.io/interpore-papers/llms/inks-printing-and-droplet-absorption.txt): 94 abstracts. Keywords: ink, printing, droplet, swelling, penetration, liquid
+- [Coal and coalbed methane](https://mralbu.github.io/interpore-papers/llms/coal-and-coalbed-methane.txt): 94 abstracts. Keywords: coal, gas, temperature, permeability, methane, cleat
+- [Microbially induced carbonate precipitation](https://mralbu.github.io/interpore-papers/llms/microbially-induced-carbonate-precipitation.txt): 93 abstracts. Keywords: precipitation micp, carbonate precipitation, calcium carbonate, calcite precipitation, induced, urea
+- [Blood, brain and biological tissue](https://mralbu.github.io/interpore-papers/llms/blood-brain-and-biological-tissue.txt): 88 abstracts. Keywords: blood, brain, tissue, bone, cells, rbcs
+- [Spontaneous imbibition](https://mralbu.github.io/interpore-papers/llms/spontaneous-imbibition.txt): 87 abstracts. Keywords: spontaneous imbibition, oil, capillary, recovery, tight, shale
+- [Adsorbents, catalysts and gas separation](https://mralbu.github.io/interpore-papers/llms/adsorbents-catalysts-and-gas-separation.txt): 82 abstracts. Keywords: adsorption, clay, swelling, co2, mofs, materials
+- [Free flow coupled to porous media](https://mralbu.github.io/interpore-papers/llms/free-flow-coupled-to-porous-media.txt): 78 abstracts. Keywords: interface, free, coupling, free-flow, region, dumux
+- [Gas hydrates in sediments](https://mralbu.github.io/interpore-papers/llms/gas-hydrates-in-sediments.txt): 76 abstracts. Keywords: hydrate formation, gas hydrates, gas hydrate, dissociation, sediments, methane hydrate
+- [Viscous fingering and instabilities](https://mralbu.github.io/interpore-papers/llms/viscous-fingering-and-instabilities.txt): 74 abstracts. Keywords: viscous fingering, miscible, instability, viscosity, fingers, fluid
+- [NMR relaxometry and MRI](https://mralbu.github.io/interpore-papers/llms/nmr-relaxometry-and-mri.txt): 70 abstracts. Keywords: nmr relaxometry, relaxation, magnetic resonance, t2, water, mri
+- [Trapped bubbles and Ostwald ripening](https://mralbu.github.io/interpore-papers/llms/trapped-bubbles-and-ostwald-ripening.txt): 59 abstracts. Keywords: bubble, bubbles, ostwald ripening, gas, ganglia, trapped
+- [Wellbore cement integrity](https://mralbu.github.io/interpore-papers/llms/wellbore-cement-integrity.txt): 56 abstracts. Keywords: wellbore cement, co2, integrity, corrosion, samples, leakage
+
+## Data
+
+- [All abstracts, one line each](https://mralbu.github.io/interpore-papers/llms-full.txt): ID, year, title, authors and mini-symposium, grouped by topic
+- [papers.json](https://mralbu.github.io/interpore-papers/data/papers.json): metadata, map coordinates, topics and similar-abstract links
+- [abstracts.json](https://mralbu.github.io/interpore-papers/data/abstracts.json): abstract text by ID
+- [history.json](https://mralbu.github.io/interpore-papers/data/history.json): every meeting since 2009 with place, dates and per-meeting statistics
+
+## Optional
+
+- [InterPore](https://www.interpore.org/): the society
+- [events.interpore.org](https://events.interpore.org/): the conference system

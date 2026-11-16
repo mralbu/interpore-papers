@@ -1,0 +1,2648 @@
+{
+ "data": {
+  "values": [
+   {
+    "Year": 2016,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 2.3,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2016,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 4.5,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2016,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 3.8,
+    "Abstracts": 21
+   },
+   {
+    "Year": 2016,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 4.5,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2016,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 1.8,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2016,
+    "Topic": "Wood and bound water",
+    "Share": 2.9,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2016,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 1.1,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2016,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 1.4,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2016,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 1.3,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2016,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 6.1,
+    "Abstracts": 34
+   },
+   {
+    "Year": 2016,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 3.1,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2016,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 13.2,
+    "Abstracts": 73
+   },
+   {
+    "Year": 2016,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 2.2,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2016,
+    "Topic": "Spontaneous imbibition",
+    "Share": 1.4,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2016,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 3.4,
+    "Abstracts": 19
+   },
+   {
+    "Year": 2016,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 11.0,
+    "Abstracts": 61
+   },
+   {
+    "Year": 2016,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 1.8,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2016,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 2.7,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2016,
+    "Topic": "Wellbore cement integrity",
+    "Share": 0.7,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2016,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 1.6,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2016,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 2.0,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2016,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 1.3,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2016,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 2.0,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2016,
+    "Topic": "Soil water and root uptake",
+    "Share": 2.5,
+    "Abstracts": 14
+   },
+   {
+    "Year": 2016,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 6.0,
+    "Abstracts": 33
+   },
+   {
+    "Year": 2016,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 1.8,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2016,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 0.4,
+    "Abstracts": 2
+   },
+   {
+    "Year": 2016,
+    "Topic": "CO2 storage and trapping",
+    "Share": 4.2,
+    "Abstracts": 23
+   },
+   {
+    "Year": 2016,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 0.5,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2016,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 3.1,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2016,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 0.2,
+    "Abstracts": 1
+   },
+   {
+    "Year": 2016,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 1.1,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2016,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 0.5,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2016,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 0.4,
+    "Abstracts": 2
+   },
+   {
+    "Year": 2016,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 2.0,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2016,
+    "Topic": "Coal and coalbed methane",
+    "Share": 1.1,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2016,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 0.2,
+    "Abstracts": 1
+   },
+   {
+    "Year": 2017,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 3.3,
+    "Abstracts": 29
+   },
+   {
+    "Year": 2017,
+    "Topic": "CO2 storage and trapping",
+    "Share": 2.9,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2017,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 14.5,
+    "Abstracts": 126
+   },
+   {
+    "Year": 2017,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 3.0,
+    "Abstracts": 26
+   },
+   {
+    "Year": 2017,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 4.5,
+    "Abstracts": 39
+   },
+   {
+    "Year": 2017,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 0.5,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2017,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 6.7,
+    "Abstracts": 58
+   },
+   {
+    "Year": 2017,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 5.8,
+    "Abstracts": 50
+   },
+   {
+    "Year": 2017,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 3.5,
+    "Abstracts": 30
+   },
+   {
+    "Year": 2017,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 9.1,
+    "Abstracts": 79
+   },
+   {
+    "Year": 2017,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 0.7,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2017,
+    "Topic": "Soil water and root uptake",
+    "Share": 3.7,
+    "Abstracts": 32
+   },
+   {
+    "Year": 2017,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 1.7,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2017,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 0.9,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2017,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 2.1,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2017,
+    "Topic": "Wood and bound water",
+    "Share": 2.0,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2017,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 2.9,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2017,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 2.8,
+    "Abstracts": 24
+   },
+   {
+    "Year": 2017,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 2.1,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2017,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 2.9,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2017,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 4.5,
+    "Abstracts": 39
+   },
+   {
+    "Year": 2017,
+    "Topic": "Coal and coalbed methane",
+    "Share": 2.0,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2017,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 1.7,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2017,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 0.6,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2017,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 2.5,
+    "Abstracts": 22
+   },
+   {
+    "Year": 2017,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2017,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 1.8,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2017,
+    "Topic": "Wellbore cement integrity",
+    "Share": 0.3,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2017,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 2.1,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2017,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 1.2,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2017,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 3.3,
+    "Abstracts": 29
+   },
+   {
+    "Year": 2017,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2017,
+    "Topic": "Spontaneous imbibition",
+    "Share": 0.9,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2017,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2017,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 0.5,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2017,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 0.6,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2017,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 0.1,
+    "Abstracts": 1
+   },
+   {
+    "Year": 2018,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 1.9,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2018,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 1.7,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2018,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 7.9,
+    "Abstracts": 70
+   },
+   {
+    "Year": 2018,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 2.8,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2018,
+    "Topic": "Wood and bound water",
+    "Share": 1.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2018,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 1.6,
+    "Abstracts": 14
+   },
+   {
+    "Year": 2018,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 0.7,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2018,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 1.4,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2018,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 2.3,
+    "Abstracts": 20
+   },
+   {
+    "Year": 2018,
+    "Topic": "CO2 storage and trapping",
+    "Share": 5.7,
+    "Abstracts": 51
+   },
+   {
+    "Year": 2018,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 1.4,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2018,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 1.8,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2018,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 17.8,
+    "Abstracts": 158
+   },
+   {
+    "Year": 2018,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 3.3,
+    "Abstracts": 29
+   },
+   {
+    "Year": 2018,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 6.3,
+    "Abstracts": 56
+   },
+   {
+    "Year": 2018,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 1.1,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2018,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 1.5,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2018,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 1.4,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2018,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 3.4,
+    "Abstracts": 30
+   },
+   {
+    "Year": 2018,
+    "Topic": "Coal and coalbed methane",
+    "Share": 1.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2018,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2018,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 3.3,
+    "Abstracts": 29
+   },
+   {
+    "Year": 2018,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 1.6,
+    "Abstracts": 14
+   },
+   {
+    "Year": 2018,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 1.8,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2018,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 3.6,
+    "Abstracts": 32
+   },
+   {
+    "Year": 2018,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 5.6,
+    "Abstracts": 50
+   },
+   {
+    "Year": 2018,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 2.6,
+    "Abstracts": 23
+   },
+   {
+    "Year": 2018,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 0.9,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2018,
+    "Topic": "Soil water and root uptake",
+    "Share": 1.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2018,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 1.6,
+    "Abstracts": 14
+   },
+   {
+    "Year": 2018,
+    "Topic": "Underground hydrogen storage",
+    "Share": 0.5,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2018,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 2.5,
+    "Abstracts": 22
+   },
+   {
+    "Year": 2018,
+    "Topic": "Wellbore cement integrity",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2018,
+    "Topic": "Spontaneous imbibition",
+    "Share": 0.9,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2018,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 1.1,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2018,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2018,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 2.3,
+    "Abstracts": 20
+   },
+   {
+    "Year": 2018,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2018,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 0.3,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2019,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 2.8,
+    "Abstracts": 26
+   },
+   {
+    "Year": 2019,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 5.9,
+    "Abstracts": 55
+   },
+   {
+    "Year": 2019,
+    "Topic": "Wood and bound water",
+    "Share": 1.6,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2019,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 4.0,
+    "Abstracts": 37
+   },
+   {
+    "Year": 2019,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 1.6,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2019,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 3.0,
+    "Abstracts": 28
+   },
+   {
+    "Year": 2019,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 2.9,
+    "Abstracts": 27
+   },
+   {
+    "Year": 2019,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 2.1,
+    "Abstracts": 20
+   },
+   {
+    "Year": 2019,
+    "Topic": "Coal and coalbed methane",
+    "Share": 1.8,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2019,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 3.5,
+    "Abstracts": 33
+   },
+   {
+    "Year": 2019,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 1.7,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2019,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 1.9,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2019,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 1.7,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2019,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 2.0,
+    "Abstracts": 19
+   },
+   {
+    "Year": 2019,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 15.6,
+    "Abstracts": 146
+   },
+   {
+    "Year": 2019,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 2.1,
+    "Abstracts": 20
+   },
+   {
+    "Year": 2019,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 0.6,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2019,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 2.6,
+    "Abstracts": 24
+   },
+   {
+    "Year": 2019,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 0.9,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2019,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 1.8,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2019,
+    "Topic": "CO2 storage and trapping",
+    "Share": 4.5,
+    "Abstracts": 42
+   },
+   {
+    "Year": 2019,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 3.5,
+    "Abstracts": 33
+   },
+   {
+    "Year": 2019,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 3.5,
+    "Abstracts": 33
+   },
+   {
+    "Year": 2019,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 2.6,
+    "Abstracts": 24
+   },
+   {
+    "Year": 2019,
+    "Topic": "Wellbore cement integrity",
+    "Share": 0.4,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2019,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 1.6,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2019,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 1.4,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2019,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 1.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2019,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 1.1,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2019,
+    "Topic": "Spontaneous imbibition",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2019,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 4.1,
+    "Abstracts": 38
+   },
+   {
+    "Year": 2019,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 7.5,
+    "Abstracts": 70
+   },
+   {
+    "Year": 2019,
+    "Topic": "Underground hydrogen storage",
+    "Share": 0.2,
+    "Abstracts": 2
+   },
+   {
+    "Year": 2019,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 1.1,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2019,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 0.4,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2019,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 2.7,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2019,
+    "Topic": "Soil water and root uptake",
+    "Share": 2.1,
+    "Abstracts": 20
+   },
+   {
+    "Year": 2019,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 0.4,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2019,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 0.4,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2020,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 8.9,
+    "Abstracts": 55
+   },
+   {
+    "Year": 2020,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 5.0,
+    "Abstracts": 31
+   },
+   {
+    "Year": 2020,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 2.7,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2020,
+    "Topic": "CO2 storage and trapping",
+    "Share": 5.3,
+    "Abstracts": 33
+   },
+   {
+    "Year": 2020,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 1.0,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2020,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 3.2,
+    "Abstracts": 20
+   },
+   {
+    "Year": 2020,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 0.5,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2020,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 3.2,
+    "Abstracts": 20
+   },
+   {
+    "Year": 2020,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 1.6,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2020,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 1.9,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2020,
+    "Topic": "Spontaneous imbibition",
+    "Share": 1.3,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2020,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 2.6,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2020,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 1.0,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2020,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 1.9,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2020,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 0.8,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2020,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 4.0,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2020,
+    "Topic": "Wood and bound water",
+    "Share": 0.2,
+    "Abstracts": 1
+   },
+   {
+    "Year": 2020,
+    "Topic": "Soil water and root uptake",
+    "Share": 1.6,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2020,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 9.5,
+    "Abstracts": 59
+   },
+   {
+    "Year": 2020,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 3.5,
+    "Abstracts": 22
+   },
+   {
+    "Year": 2020,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 1.5,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2020,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 14.0,
+    "Abstracts": 87
+   },
+   {
+    "Year": 2020,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 1.0,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2020,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 2.9,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2020,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 3.7,
+    "Abstracts": 23
+   },
+   {
+    "Year": 2020,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 1.5,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2020,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 1.3,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2020,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 1.1,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2020,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 2.6,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2020,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 2.6,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2020,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 0.6,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2020,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 2.1,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2020,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 0.8,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2020,
+    "Topic": "Underground hydrogen storage",
+    "Share": 0.5,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2020,
+    "Topic": "Coal and coalbed methane",
+    "Share": 1.3,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2020,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 1.0,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2020,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 0.6,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2020,
+    "Topic": "Wellbore cement integrity",
+    "Share": 1.1,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2021,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 2.6,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2021,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 5.1,
+    "Abstracts": 35
+   },
+   {
+    "Year": 2021,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 2.3,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2021,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 6.4,
+    "Abstracts": 44
+   },
+   {
+    "Year": 2021,
+    "Topic": "CO2 storage and trapping",
+    "Share": 5.2,
+    "Abstracts": 36
+   },
+   {
+    "Year": 2021,
+    "Topic": "Underground hydrogen storage",
+    "Share": 1.0,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2021,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 9.7,
+    "Abstracts": 67
+   },
+   {
+    "Year": 2021,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 4.8,
+    "Abstracts": 33
+   },
+   {
+    "Year": 2021,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 1.7,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2021,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 12.9,
+    "Abstracts": 89
+   },
+   {
+    "Year": 2021,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 1.9,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2021,
+    "Topic": "Soil water and root uptake",
+    "Share": 5.4,
+    "Abstracts": 37
+   },
+   {
+    "Year": 2021,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 2.8,
+    "Abstracts": 19
+   },
+   {
+    "Year": 2021,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 1.6,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2021,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 2.2,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2021,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 0.9,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2021,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 4.9,
+    "Abstracts": 34
+   },
+   {
+    "Year": 2021,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 1.2,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2021,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 1.9,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2021,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 1.0,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2021,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 1.3,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2021,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 1.6,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2021,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 2.9,
+    "Abstracts": 20
+   },
+   {
+    "Year": 2021,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 1.9,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2021,
+    "Topic": "Wood and bound water",
+    "Share": 1.6,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2021,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 0.9,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2021,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 2.3,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2021,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 1.2,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2021,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 1.6,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2021,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 1.9,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2021,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 0.9,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2021,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 1.0,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2021,
+    "Topic": "Wellbore cement integrity",
+    "Share": 0.7,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2021,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 2.2,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2021,
+    "Topic": "Spontaneous imbibition",
+    "Share": 0.9,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2021,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 0.3,
+    "Abstracts": 2
+   },
+   {
+    "Year": 2021,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 0.6,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2021,
+    "Topic": "Coal and coalbed methane",
+    "Share": 0.4,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2021,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 0.3,
+    "Abstracts": 2
+   },
+   {
+    "Year": 2022,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 9.5,
+    "Abstracts": 48
+   },
+   {
+    "Year": 2022,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 9.7,
+    "Abstracts": 49
+   },
+   {
+    "Year": 2022,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 3.2,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2022,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 3.0,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2022,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 1.0,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2022,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 2.0,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2022,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 1.6,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2022,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 2.6,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2022,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 1.2,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2022,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 11.2,
+    "Abstracts": 57
+   },
+   {
+    "Year": 2022,
+    "Topic": "Spontaneous imbibition",
+    "Share": 2.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2022,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 1.2,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2022,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 2.6,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2022,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 4.3,
+    "Abstracts": 22
+   },
+   {
+    "Year": 2022,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 2.8,
+    "Abstracts": 14
+   },
+   {
+    "Year": 2022,
+    "Topic": "Soil water and root uptake",
+    "Share": 1.0,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2022,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 2.8,
+    "Abstracts": 14
+   },
+   {
+    "Year": 2022,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 3.2,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2022,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 3.6,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2022,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 1.4,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2022,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 0.8,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2022,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 2.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2022,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 0.6,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2022,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 2.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2022,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 1.0,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2022,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 3.2,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2022,
+    "Topic": "Wellbore cement integrity",
+    "Share": 0.6,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2022,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 3.7,
+    "Abstracts": 19
+   },
+   {
+    "Year": 2022,
+    "Topic": "Underground hydrogen storage",
+    "Share": 2.0,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2022,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 1.2,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2022,
+    "Topic": "CO2 storage and trapping",
+    "Share": 5.7,
+    "Abstracts": 29
+   },
+   {
+    "Year": 2022,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 1.4,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2022,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 2.0,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2022,
+    "Topic": "Coal and coalbed methane",
+    "Share": 0.6,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2022,
+    "Topic": "Wood and bound water",
+    "Share": 1.0,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2022,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 1.0,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2022,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 0.4,
+    "Abstracts": 2
+   },
+   {
+    "Year": 2022,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 0.4,
+    "Abstracts": 2
+   },
+   {
+    "Year": 2022,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 0.6,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2023,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 2.2,
+    "Abstracts": 20
+   },
+   {
+    "Year": 2023,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 7.1,
+    "Abstracts": 63
+   },
+   {
+    "Year": 2023,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 1.5,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2023,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 2.8,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2023,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2023,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2023,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 3.6,
+    "Abstracts": 32
+   },
+   {
+    "Year": 2023,
+    "Topic": "Underground hydrogen storage",
+    "Share": 4.2,
+    "Abstracts": 37
+   },
+   {
+    "Year": 2023,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 3.4,
+    "Abstracts": 30
+   },
+   {
+    "Year": 2023,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 1.9,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2023,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 7.2,
+    "Abstracts": 64
+   },
+   {
+    "Year": 2023,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 2.0,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2023,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 2.8,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2023,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 1.5,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2023,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 4.5,
+    "Abstracts": 40
+   },
+   {
+    "Year": 2023,
+    "Topic": "CO2 storage and trapping",
+    "Share": 8.2,
+    "Abstracts": 73
+   },
+   {
+    "Year": 2023,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 3.0,
+    "Abstracts": 27
+   },
+   {
+    "Year": 2023,
+    "Topic": "Wood and bound water",
+    "Share": 1.7,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2023,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 9.9,
+    "Abstracts": 88
+   },
+   {
+    "Year": 2023,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 1.9,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2023,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 1.1,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2023,
+    "Topic": "Soil water and root uptake",
+    "Share": 1.9,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2023,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 4.6,
+    "Abstracts": 41
+   },
+   {
+    "Year": 2023,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 3.0,
+    "Abstracts": 27
+   },
+   {
+    "Year": 2023,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2023,
+    "Topic": "Spontaneous imbibition",
+    "Share": 0.7,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2023,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2023,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 1.5,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2023,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 3.0,
+    "Abstracts": 27
+   },
+   {
+    "Year": 2023,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 0.7,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2023,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 1.9,
+    "Abstracts": 17
+   },
+   {
+    "Year": 2023,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 1.8,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2023,
+    "Topic": "Wellbore cement integrity",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2023,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2023,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 1.1,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2023,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 1.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2023,
+    "Topic": "Coal and coalbed methane",
+    "Share": 0.9,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2023,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2023,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 0.7,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2024,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 11.5,
+    "Abstracts": 85
+   },
+   {
+    "Year": 2024,
+    "Topic": "CO2 storage and trapping",
+    "Share": 8.2,
+    "Abstracts": 61
+   },
+   {
+    "Year": 2024,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 2.4,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2024,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 9.0,
+    "Abstracts": 67
+   },
+   {
+    "Year": 2024,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 3.9,
+    "Abstracts": 29
+   },
+   {
+    "Year": 2024,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 1.1,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2024,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 3.4,
+    "Abstracts": 25
+   },
+   {
+    "Year": 2024,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 3.5,
+    "Abstracts": 26
+   },
+   {
+    "Year": 2024,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 6.7,
+    "Abstracts": 50
+   },
+   {
+    "Year": 2024,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 2.6,
+    "Abstracts": 19
+   },
+   {
+    "Year": 2024,
+    "Topic": "Coal and coalbed methane",
+    "Share": 1.3,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2024,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 2.8,
+    "Abstracts": 21
+   },
+   {
+    "Year": 2024,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 5.9,
+    "Abstracts": 44
+   },
+   {
+    "Year": 2024,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 1.9,
+    "Abstracts": 14
+   },
+   {
+    "Year": 2024,
+    "Topic": "Spontaneous imbibition",
+    "Share": 2.2,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2024,
+    "Topic": "Underground hydrogen storage",
+    "Share": 5.0,
+    "Abstracts": 37
+   },
+   {
+    "Year": 2024,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 2.6,
+    "Abstracts": 19
+   },
+   {
+    "Year": 2024,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 1.1,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2024,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 1.9,
+    "Abstracts": 14
+   },
+   {
+    "Year": 2024,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 0.9,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2024,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 0.8,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2024,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 0.7,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2024,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 1.3,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2024,
+    "Topic": "Wellbore cement integrity",
+    "Share": 0.4,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2024,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 1.3,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2024,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 1.5,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2024,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 1.6,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2024,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 3.8,
+    "Abstracts": 28
+   },
+   {
+    "Year": 2024,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 0.9,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2024,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 1.3,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2024,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 0.9,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2024,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 1.8,
+    "Abstracts": 13
+   },
+   {
+    "Year": 2024,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 0.5,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2024,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 0.9,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2024,
+    "Topic": "Soil water and root uptake",
+    "Share": 1.2,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2024,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 1.2,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2024,
+    "Topic": "Wood and bound water",
+    "Share": 0.4,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2024,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 0.8,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2024,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 0.4,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2025,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 7.2,
+    "Abstracts": 38
+   },
+   {
+    "Year": 2025,
+    "Topic": "CO2 storage and trapping",
+    "Share": 12.5,
+    "Abstracts": 66
+   },
+   {
+    "Year": 2025,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 4.4,
+    "Abstracts": 23
+   },
+   {
+    "Year": 2025,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 2.3,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2025,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 9.7,
+    "Abstracts": 51
+   },
+   {
+    "Year": 2025,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 0.6,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2025,
+    "Topic": "Underground hydrogen storage",
+    "Share": 7.2,
+    "Abstracts": 38
+   },
+   {
+    "Year": 2025,
+    "Topic": "Spontaneous imbibition",
+    "Share": 0.9,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2025,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 7.0,
+    "Abstracts": 37
+   },
+   {
+    "Year": 2025,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 6.2,
+    "Abstracts": 33
+   },
+   {
+    "Year": 2025,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 4.0,
+    "Abstracts": 21
+   },
+   {
+    "Year": 2025,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 0.6,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2025,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 1.3,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2025,
+    "Topic": "Coal and coalbed methane",
+    "Share": 0.8,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2025,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 0.6,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2025,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 1.7,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2025,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 1.3,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2025,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 1.5,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2025,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 3.6,
+    "Abstracts": 19
+   },
+   {
+    "Year": 2025,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 1.7,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2025,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 1.1,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2025,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 2.3,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2025,
+    "Topic": "Wood and bound water",
+    "Share": 1.1,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2025,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 3.0,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2025,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 3.4,
+    "Abstracts": 18
+   },
+   {
+    "Year": 2025,
+    "Topic": "Soil water and root uptake",
+    "Share": 1.3,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2025,
+    "Topic": "Wellbore cement integrity",
+    "Share": 1.1,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2025,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 1.9,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2025,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 1.3,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2025,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 0.8,
+    "Abstracts": 4
+   },
+   {
+    "Year": 2025,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 1.5,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2025,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 2.3,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2025,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 0.6,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2025,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 1.1,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2025,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 1.1,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2025,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 0.4,
+    "Abstracts": 2
+   },
+   {
+    "Year": 2025,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 0.2,
+    "Abstracts": 1
+   },
+   {
+    "Year": 2025,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 0.2,
+    "Abstracts": 1
+   },
+   {
+    "Year": 2025,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 0.2,
+    "Abstracts": 1
+   },
+   {
+    "Year": 2026,
+    "Topic": "Inks, printing and droplet absorption",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2026,
+    "Topic": "Underground hydrogen storage",
+    "Share": 5.8,
+    "Abstracts": 52
+   },
+   {
+    "Year": 2026,
+    "Topic": "Shale gas, kerogen and adsorption",
+    "Share": 2.6,
+    "Abstracts": 23
+   },
+   {
+    "Year": 2026,
+    "Topic": "Salt crystallization and building materials",
+    "Share": 2.1,
+    "Abstracts": 19
+   },
+   {
+    "Year": 2026,
+    "Topic": "Fractures, geomechanics and numerical methods",
+    "Share": 9.7,
+    "Abstracts": 87
+   },
+   {
+    "Year": 2026,
+    "Topic": "Mineral dissolution and precipitation",
+    "Share": 4.0,
+    "Abstracts": 36
+   },
+   {
+    "Year": 2026,
+    "Topic": "CO2 storage and trapping",
+    "Share": 8.0,
+    "Abstracts": 72
+   },
+   {
+    "Year": 2026,
+    "Topic": "Imaging, digital rock and pore networks",
+    "Share": 6.6,
+    "Abstracts": 59
+   },
+   {
+    "Year": 2026,
+    "Topic": "Mixing, dispersion and reactive transport",
+    "Share": 4.4,
+    "Abstracts": 40
+   },
+   {
+    "Year": 2026,
+    "Topic": "Machine learning and uncertainty quantification",
+    "Share": 4.0,
+    "Abstracts": 36
+   },
+   {
+    "Year": 2026,
+    "Topic": "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Share": 3.4,
+    "Abstracts": 31
+   },
+   {
+    "Year": 2026,
+    "Topic": "Capillarity, wettability and two-phase displacement",
+    "Share": 6.3,
+    "Abstracts": 57
+   },
+   {
+    "Year": 2026,
+    "Topic": "Biofilms and bacterial transport",
+    "Share": 3.3,
+    "Abstracts": 30
+   },
+   {
+    "Year": 2026,
+    "Topic": "Freezing, ice and thermal energy storage",
+    "Share": 1.1,
+    "Abstracts": 10
+   },
+   {
+    "Year": 2026,
+    "Topic": "Adsorbents, catalysts and gas separation",
+    "Share": 1.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2026,
+    "Topic": "Nanoconfined fluids and adsorption",
+    "Share": 2.6,
+    "Abstracts": 23
+   },
+   {
+    "Year": 2026,
+    "Topic": "Oil reservoirs and tight-oil petrophysics",
+    "Share": 1.8,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2026,
+    "Topic": "Electrodes, fuel cells and batteries",
+    "Share": 3.9,
+    "Abstracts": 35
+   },
+   {
+    "Year": 2026,
+    "Topic": "Wood and bound water",
+    "Share": 1.2,
+    "Abstracts": 11
+   },
+   {
+    "Year": 2026,
+    "Topic": "Heat transfer and thermal properties",
+    "Share": 5.1,
+    "Abstracts": 46
+   },
+   {
+    "Year": 2026,
+    "Topic": "Multiphase flow modelling (phase field, VOF)",
+    "Share": 2.6,
+    "Abstracts": 23
+   },
+   {
+    "Year": 2026,
+    "Topic": "Free flow coupled to porous media",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2026,
+    "Topic": "Drying, wicking and evaporation",
+    "Share": 1.8,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2026,
+    "Topic": "Particle and colloid transport, filtration",
+    "Share": 3.2,
+    "Abstracts": 29
+   },
+   {
+    "Year": 2026,
+    "Topic": "Chemical EOR (polymer, surfactant, emulsions)",
+    "Share": 1.8,
+    "Abstracts": 16
+   },
+   {
+    "Year": 2026,
+    "Topic": "Microbially induced carbonate precipitation",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2026,
+    "Topic": "Low-salinity water and wettability alteration",
+    "Share": 0.3,
+    "Abstracts": 3
+   },
+   {
+    "Year": 2026,
+    "Topic": "Foam and nanoparticles for gas mobility control",
+    "Share": 1.7,
+    "Abstracts": 15
+   },
+   {
+    "Year": 2026,
+    "Topic": "Lattice Boltzmann methods",
+    "Share": 0.7,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2026,
+    "Topic": "NMR relaxometry and MRI",
+    "Share": 0.9,
+    "Abstracts": 8
+   },
+   {
+    "Year": 2026,
+    "Topic": "Wellbore cement integrity",
+    "Share": 0.6,
+    "Abstracts": 5
+   },
+   {
+    "Year": 2026,
+    "Topic": "Soil water and root uptake",
+    "Share": 1.3,
+    "Abstracts": 12
+   },
+   {
+    "Year": 2026,
+    "Topic": "CO2 EOR and heavy oil",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2026,
+    "Topic": "Trapped bubbles and Ostwald ripening",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2026,
+    "Topic": "Gas hydrates in sediments",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2026,
+    "Topic": "Blood, brain and biological tissue",
+    "Share": 0.7,
+    "Abstracts": 6
+   },
+   {
+    "Year": 2026,
+    "Topic": "Viscous fingering and instabilities",
+    "Share": 1.0,
+    "Abstracts": 9
+   },
+   {
+    "Year": 2026,
+    "Topic": "Coal and coalbed methane",
+    "Share": 0.8,
+    "Abstracts": 7
+   },
+   {
+    "Year": 2026,
+    "Topic": "Spontaneous imbibition",
+    "Share": 0.2,
+    "Abstracts": 2
+   }
+  ]
+ },
+ "mark": {
+  "type": "rect",
+  "cornerRadius": 2
+ },
+ "encoding": {
+  "color": {
+   "field": "Share",
+   "legend": {
+    "gradientLength": 220,
+    "orient": "bottom"
+   },
+   "title": "% of the year's abstracts",
+   "type": "quantitative"
+  },
+  "tooltip": [
+   {
+    "field": "Topic",
+    "type": "nominal"
+   },
+   {
+    "field": "Year",
+    "type": "ordinal"
+   },
+   {
+    "field": "Share",
+    "format": ".1f",
+    "title": "% of abstracts",
+    "type": "quantitative"
+   },
+   {
+    "field": "Abstracts",
+    "type": "quantitative"
+   }
+  ],
+  "x": {
+   "axis": {
+    "labelAngle": 0,
+    "orient": "top"
+   },
+   "field": "Year",
+   "title": null,
+   "type": "ordinal"
+  },
+  "y": {
+   "axis": {
+    "labelLimit": 260
+   },
+   "field": "Topic",
+   "sort": [
+    "Blood, brain and biological tissue",
+    "Wood and bound water",
+    "Foam and nanoparticles for gas mobility control",
+    "Electrodes, fuel cells and batteries",
+    "Capillarity, wettability and two-phase displacement",
+    "Coal and coalbed methane",
+    "NMR relaxometry and MRI",
+    "Freezing, ice and thermal energy storage",
+    "Salt crystallization and building materials",
+    "Nanoconfined fluids and adsorption",
+    "Mixing, dispersion and reactive transport",
+    "Adsorbents, catalysts and gas separation",
+    "Drying, wicking and evaporation",
+    "Microbially induced carbonate precipitation",
+    "Fractures, geomechanics and numerical methods",
+    "Low-salinity water and wettability alteration",
+    "Multiphase flow modelling (phase field, VOF)",
+    "Wellbore cement integrity",
+    "Free flow coupled to porous media",
+    "Lattice Boltzmann methods",
+    "Chemical EOR (polymer, surfactant, emulsions)",
+    "Oil reservoirs and tight-oil petrophysics",
+    "Viscous fingering and instabilities",
+    "Machine learning and uncertainty quantification",
+    "Soil water and root uptake",
+    "Spontaneous imbibition",
+    "Inks, printing and droplet absorption",
+    "Groundwater contamination and remediation (PFAS, NAPL)",
+    "Imaging, digital rock and pore networks",
+    "Trapped bubbles and Ostwald ripening",
+    "Gas hydrates in sediments",
+    "CO2 EOR and heavy oil",
+    "Shale gas, kerogen and adsorption",
+    "Particle and colloid transport, filtration",
+    "Biofilms and bacterial transport",
+    "Mineral dissolution and precipitation",
+    "Underground hydrogen storage",
+    "CO2 storage and trapping",
+    "Heat transfer and thermal properties"
+   ],
+   "title": null,
+   "type": "nominal"
+  }
+ },
+ "height": {
+  "step": 17
+ },
+ "width": "container",
+ "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json"
+}

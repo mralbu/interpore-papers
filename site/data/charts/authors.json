@@ -1,0 +1,191 @@
+{
+ "data": {
+  "values": [
+   {
+    "Year": 2016,
+    "Authors": 1359,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2017,
+    "Authors": 1641,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2017,
+    "Authors": 429,
+    "Group": "Returning",
+    "o": 0
+   },
+   {
+    "Year": 2018,
+    "Authors": 1465,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2018,
+    "Authors": 636,
+    "Group": "Returning",
+    "o": 0
+   },
+   {
+    "Year": 2019,
+    "Authors": 1363,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2019,
+    "Authors": 906,
+    "Group": "Returning",
+    "o": 0
+   },
+   {
+    "Year": 2020,
+    "Authors": 1017,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2020,
+    "Authors": 707,
+    "Group": "Returning",
+    "o": 0
+   },
+   {
+    "Year": 2021,
+    "Authors": 981,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2021,
+    "Authors": 818,
+    "Group": "Returning",
+    "o": 0
+   },
+   {
+    "Year": 2022,
+    "Authors": 628,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2022,
+    "Authors": 777,
+    "Group": "Returning",
+    "o": 0
+   },
+   {
+    "Year": 2023,
+    "Authors": 1281,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2023,
+    "Authors": 1118,
+    "Group": "Returning",
+    "o": 0
+   },
+   {
+    "Year": 2024,
+    "Authors": 1084,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2024,
+    "Authors": 809,
+    "Group": "Returning",
+    "o": 0
+   },
+   {
+    "Year": 2025,
+    "Authors": 765,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2025,
+    "Authors": 697,
+    "Group": "Returning",
+    "o": 0
+   },
+   {
+    "Year": 2026,
+    "Authors": 1312,
+    "Group": "First seen",
+    "o": 1
+   },
+   {
+    "Year": 2026,
+    "Authors": 1106,
+    "Group": "Returning",
+    "o": 0
+   }
+  ]
+ },
+ "mark": {
+  "type": "bar",
+  "cornerRadiusTopLeft": 2,
+  "cornerRadiusTopRight": 2
+ },
+ "encoding": {
+  "color": {
+   "field": "Group",
+   "scale": {
+    "domain": [
+     "Returning",
+     "First seen"
+    ]
+   },
+   "sort": [
+    "Returning",
+    "First seen"
+   ],
+   "title": null,
+   "type": "nominal"
+  },
+  "order": {
+   "field": "o",
+   "type": "quantitative"
+  },
+  "tooltip": [
+   {
+    "field": "Year",
+    "type": "ordinal"
+   },
+   {
+    "field": "Group",
+    "type": "nominal"
+   },
+   {
+    "aggregate": "sum",
+    "field": "Authors",
+    "title": "Authors",
+    "type": "quantitative"
+   }
+  ],
+  "x": {
+   "axis": {
+    "labelAngle": 0
+   },
+   "field": "Year",
+   "title": null,
+   "type": "ordinal"
+  },
+  "y": {
+   "aggregate": "sum",
+   "field": "Authors",
+   "title": "Distinct authors",
+   "type": "quantitative"
+  }
+ },
+ "height": 240,
+ "width": "container",
+ "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json"
+}

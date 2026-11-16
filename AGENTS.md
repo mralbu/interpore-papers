@@ -78,7 +78,11 @@ Audience: personal exploration.
   `MIN_CLUSTER_SIZE = 45`, `MIN_SAMPLES = 8` for the bigger corpus. Topic
   names are hand-written in `topics.yaml` (`rename: {id: {name, short}}`)
   after reading each cluster's keywords and titles; ids only hold while the
-  inputs are unchanged, so re-check after a rebuild.
+  inputs are unchanged, so re-check after a rebuild. Nov 2026 build: 39
+  topics, 1,771 abstracts (22%) left as outliers. The
+  largest topic (fractures, geomechanics and numerical methods, ~1,050) is
+  a catch-all for reservoir-scale modelling. YAML names with commas must be
+  quoted.
 - **Related abstracts** in the reading pane: 8 nearest neighbours by
   embedding, and "Same authors" (other abstracts sharing an author name,
   matched by `text.name_key` / `nameKey` in app.js: accents dropped, lower

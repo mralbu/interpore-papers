@@ -332,7 +332,11 @@ def write(recs: list[dict], papers: list[dict], topic_list: list[dict]) -> list:
         "first_year_with_abstracts": min(m["year"] for m in with_stats),
         "authors": len(all_people),
         "countries": len(
-            {m.get("country") for m in data["meetings"] if m.get("country") and not m.get("upcoming")}
+            {
+                m.get("country")
+                for m in data["meetings"]
+                if m.get("country") and not m.get("upcoming")
+            }
         ),
     }
     out = {"society": data["society"], "totals": totals, "meetings": meeting_list}
