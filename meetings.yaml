@@ -1,0 +1,276 @@
+# The InterPore annual meetings (International Conference on Porous Media &
+# Annual Meeting of the International Society for Porous Media).
+#
+# Hand-curated facts, one entry per meeting, used by the pipeline (which
+# meetings have abstracts and where they come from) and by the History view.
+# Sources: https://www.interpore.org/interpore-events-past-upcoming (dates,
+# places, numbering), the per-meeting pages on interpore.org (node/887-894,
+# node/976, event/interpore2025, event/ip2027) and the Indico event pages
+# (https://events.interpore.org/event/<indico>/).
+#
+# Fields:
+#   number, year, title, start, end, city, country, venue, format
+#   (in-person | online | hybrid)
+#   indico: event id on events.interpore.org (abstracts come from its JSON export)
+#   book: book of abstracts PDF (2016 and 2017 abstracts are parsed from it)
+#   program: conference program PDF, report: post-conference report PDF
+#   page: the meeting's page on interpore.org
+#   notes: one or two sentences for the timeline, from the sources above
+
+society:
+  name: International Society for Porous Media (InterPore)
+  founded: 2008
+  seat: De Bilt, The Netherlands
+  about: >-
+    A non-profit, independent scientific organisation established in 2008 to
+    advance and disseminate knowledge for the understanding, description and
+    modelling of natural and industrial porous media systems: soils, aquifers,
+    oil and gas reservoirs, biological tissues and plants, but also fuel cells,
+    concrete, textiles, polymer composites and in-tissue drug delivery.
+  url: https://www.interpore.org/about-interpore
+  issn: 2518-3826 (books of abstracts, electronic)
+
+meetings:
+  - number: 1
+    year: 2009
+    title: InterPore2009
+    start: 2009-03-14
+    end: 2009-03-17
+    city: Kaiserslautern
+    country: Germany
+    venue: Fraunhofer ITWM
+    format: in-person
+    notes: >-
+      The first conference and annual meeting of the society, a year after
+      it was founded, hosted by the Fraunhofer Institute for Industrial
+      Mathematics (ITWM).
+
+  - number: 2
+    year: 2010
+    title: InterPore2010
+    start: 2010-03-14
+    end: 2010-03-17
+    city: College Station, Texas
+    country: USA
+    venue: Texas A&M University
+    format: in-person
+    notes: The first meeting in North America.
+
+  - number: 3
+    year: 2011
+    title: InterPore2011
+    start: 2011-03-29
+    end: 2011-03-31
+    city: Bordeaux
+    country: France
+    format: in-person
+
+  - number: 4
+    year: 2012
+    title: InterPore2012
+    start: 2012-05-14
+    end: 2012-05-16
+    city: West Lafayette, Indiana
+    country: USA
+    venue: Purdue University
+    format: in-person
+    notes: From this meeting on the conference moved from March to May.
+
+  - number: 5
+    year: 2013
+    title: InterPore2013
+    start: 2013-05-21
+    end: 2013-05-24
+    city: Prague
+    country: Czech Republic
+    format: in-person
+
+  - number: 6
+    year: 2014
+    title: InterPore2014
+    start: 2014-05-27
+    end: 2014-05-30
+    city: Milwaukee, Wisconsin
+    country: USA
+    format: in-person
+
+  - number: 7
+    year: 2015
+    title: InterPore2015
+    start: 2015-05-18
+    end: 2015-05-21
+    city: Padova
+    country: Italy
+    format: in-person
+
+  - number: 8
+    year: 2016
+    title: InterPore2016
+    start: 2016-05-09
+    end: 2016-05-12
+    city: Cincinnati, Ohio
+    country: USA
+    format: in-person
+    page: https://interpore.org/node/887
+    book: https://www.interpore.org/sites/default/files/2025-02/Book_of_Abstracts_InterPore_2016_red.pdf
+    notes: >-
+      The oldest meeting whose book of abstracts is online, organised in
+      themed minisymposia. The book carries the ISSN used for all later
+      InterPore books of abstracts.
+
+  - number: 9
+    year: 2017
+    title: InterPore2017
+    start: 2017-05-08
+    end: 2017-05-11
+    city: Rotterdam
+    country: The Netherlands
+    venue: De Doelen International Congress Centre
+    format: in-person
+    page: https://interpore.org/node/888
+    book: https://www.interpore.org/sites/default/files/2025-02/InterPore2017%20-%20Book%20of%20Abstracts_red.pdf
+
+  - number: 10
+    year: 2018
+    title: InterPore2018
+    start: 2018-05-14
+    end: 2018-05-17
+    city: New Orleans, Louisiana
+    country: USA
+    venue: Ernest N. Morial Convention Center
+    format: in-person
+    indico: 2
+    notes: >-
+      The 10th annual meeting and Jubilee celebration, and the first one run
+      on the society's own Indico server (events.interpore.org).
+
+  - number: 11
+    year: 2019
+    title: InterPore2019
+    start: 2019-05-06
+    end: 2019-05-10
+    city: Valencia
+    country: Spain
+    venue: Valencia Conference Centre
+    format: in-person
+    indico: 12
+    page: https://interpore.org/node/889
+    program: https://www.interpore.org/sites/default/files/2025-02/InterPore2019%20-%20Conference%20Program_red.pdf
+    notes: Organised by the Universitat Politècnica de València.
+
+  - number: 12
+    year: 2020
+    title: InterPore2020
+    start: 2020-08-31
+    end: 2020-09-04
+    city: Online
+    format: online
+    indico: 23
+    page: https://interpore.org/node/890
+    book: https://www.interpore.org/sites/default/files/2025-02/InterPore2020%20-%20Book%20of%20Abstracts_red.pdf
+    program: https://www.interpore.org/sites/default/files/2025-02/InterPore2020%20-%20Conference%20Program_red.pdf
+    notes: >-
+      Moved online, and from May to late August, after the COVID-19 outbreak;
+      over 700 participants joined, with pre-recorded talks and live Q&A.
+
+  - number: 13
+    year: 2021
+    title: InterPore2021
+    start: 2021-05-31
+    end: 2021-06-04
+    city: Online
+    format: online
+    indico: 25
+    page: https://interpore.org/node/891
+    book: https://www.interpore.org/sites/default/files/2025-02/InterPore2021%20-%20Book%20of%20Abstracts_red.pdf
+    program: https://www.interpore.org/sites/default/files/2025-02/InterPore2021%20-%20Conference%20Program_red.pdf
+    notes: >-
+      Planned as an online conference from the outset, with on-demand access
+      to hundreds of pre-recorded presentations.
+
+  - number: 14
+    year: 2022
+    title: InterPore2022
+    start: 2022-05-30
+    end: 2022-06-02
+    city: Abu Dhabi
+    country: United Arab Emirates
+    format: hybrid
+    indico: 40
+    page: https://interpore.org/node/892
+    book: https://www.interpore.org/sites/default/files/2025-02/InterPore2022%20-%20Book%20of%20Abstracts_red.pdf
+    program: https://www.interpore.org/sites/default/files/2025-02/InterPore2022%20-%20Conference%20Program_red.pdf
+    report: https://www.interpore.org/wp-content/uploads/2022/09/InterPore2022_Conference_Report_1.pdf
+    notes: >-
+      The return to an in-person meeting after two online years, with online
+      participation as well; the first InterPore meeting in the Middle East.
+
+  - number: 15
+    year: 2023
+    title: InterPore2023
+    start: 2023-05-22
+    end: 2023-05-25
+    city: Edinburgh
+    country: United Kingdom
+    venue: Edinburgh International Conference Centre (EICC)
+    format: hybrid
+    indico: 41
+    page: https://interpore.org/node/893
+    book: https://www.interpore.org/sites/default/files/2025-02/InterPore2023%20-%20Book%20of%20Abstracts_red.pdf
+    program: https://www.interpore.org/sites/default/files/2025-02/InterPore2023%20-%20Conference%20Program_red.pdf
+    notes: >-
+      The first InterPore conference held in the UK, hosted by Heriot-Watt
+      University, with energy-transition themes (carbon storage, hydrogen,
+      geothermal) next to classic subsurface flow.
+
+  - number: 16
+    year: 2024
+    title: InterPore2024
+    start: 2024-05-13
+    end: 2024-05-16
+    city: Qingdao
+    country: China
+    venue: Shangri-La Hotel
+    format: hybrid
+    indico: 46
+    page: https://interpore.org/node/894
+    book: https://www.interpore.org/sites/default/files/2025-02/InterPore2024%20-%20Book%20of%20Abstracts_red.pdf
+    program: https://www.interpore.org/sites/default/files/2025-02/InterPore2024%20-%20Conference%20Program_Red.pdf
+    notes: >-
+      The first meeting in Asia, with the focus theme "porous media and
+      biology"; over 800 participants were expected.
+
+  - number: 17
+    year: 2025
+    title: InterPore2025
+    start: 2025-05-19
+    end: 2025-05-22
+    city: Albuquerque, New Mexico
+    country: USA
+    format: hybrid
+    indico: 56
+    page: https://www.interpore.org/event/interpore2025
+
+  - number: 18
+    year: 2026
+    title: InterPore2026
+    start: 2026-05-19
+    end: 2026-05-22
+    city: Nantes
+    country: France
+    format: hybrid
+    indico: 58
+    page: https://interpore.org/node/976
+    notes: Preceded by a day of conference courses on May 18.
+
+  - number: 19
+    year: 2027
+    title: InterPore2027
+    start: 2027-05-10
+    end: 2027-05-13
+    city: Rio de Janeiro
+    country: Brazil
+    venue: Windsor Barra Hotel
+    page: https://www.interpore.org/event/ip2027
+    upcoming: true
+    notes: The first meeting in South America (upcoming).

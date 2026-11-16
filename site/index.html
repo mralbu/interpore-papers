@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InterPore Abstracts Explorer</title>
+  <meta name="description" content="Explore the abstracts of the InterPore annual meetings (International Conference on Porous Media, 2016–2026) as a list, a topic map and a history of the conference since 2009.">
+  <script>
+    // Apply a saved light/dark choice before first paint (no flash); otherwise follow the system.
+    try {
+      const t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    } catch {}
+  </script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/deck.gl@9.1.14/dist.min.js" integrity="sha256-BZs9dCF93d5VJUgojI/H2++LbrcE6UXIPnZ2mC4PCAM=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.js" integrity="sha256-A8J5MetgOvHTNYV56Yher9tqL1+pkpVXs+d9fpnQbQM=" crossorigin="anonymous" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha256-cXvJrnhTth8PdkVd3fDs1PUnp4P0LeKsJGhImcHEYlg=" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha256-5r/l3uvUx8zScgVbq2O9OrLHO5B7bmoi01J0CoE4H9Q=" crossorigin="anonymous" defer></script>
+  <!-- Vega for the History charts (specs built with Altair in history.py); deferred scripts run in order. -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@6.4.0/build/vega.min.js" integrity="sha256-j2o1h8+NT0LH4IEg4+sF0GfnRtVU450tz1KswL1boo8=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.3/build/vega-lite.min.js" integrity="sha256-NamCHfg4glsFpqc+lBS1h0ehsYMhWDhY7ZA8Zjk6XH4=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@7.3.0/build/vega-embed.min.js" integrity="sha256-sUVcq6L7GnL7RgJboLoTFuLbx/DdQKP2BAFyv5wIupE=" crossorigin="anonymous" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="bar">
+    <h1>InterPore Abstracts Explorer</h1>
+    <nav class="views" role="tablist" aria-label="View">
+      <button role="tab" data-view="list" aria-selected="true">List</button>
+      <button role="tab" data-view="map" aria-selected="false">Map</button>
+      <button role="tab" data-view="history" aria-selected="false">History</button>
+    </nav>
+    <span id="count" class="muted"></span>
+    <a class="muted" href="https://events.interpore.org/" target="_blank" rel="noopener">events.interpore.org</a>
+    <button id="theme" class="theme" type="button" role="switch" aria-label="Dark theme">
+      <span class="knob" aria-hidden="true"></span>
+      <!-- Sun and moon outlines from Lucide (ISC licence), drawn in currentColor. -->
+      <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-17.07 1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg></span>
+      <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></span>
+    </button>
+  </header>
+
+  <aside id="controls" class="panel">
+    <label class="field">
+      <span>Search</span>
+      <input id="search" type="search" placeholder="title, author, affiliation, session, ID…" autocomplete="off">
+    </label>
+    <ol id="results" class="results map-only"></ol>
+
+    <div class="field">
+      <span>Years <button id="years-reset" class="link push" type="button" hidden>reset</button></span>
+      <div class="years">
+        <input id="year-min" type="number" inputmode="numeric" aria-label="First year">
+        <span class="muted">to</span>
+        <input id="year-max" type="number" inputmode="numeric" aria-label="Last year">
+      </div>
+    </div>
+
+    <label class="field">
+      <span>Presentation</span>
+      <select id="format" title="Presentation format as recorded by the conference">
+        <option value="">All formats</option>
+      </select>
+    </label>
+
+    <div id="session-field" class="field" hidden>
+      <span>Session <button id="session-clear" class="link push" type="button">clear</button></span>
+      <p id="session-name" class="session-pill"></p>
+    </div>
+
+    <div class="field">
+      <span>Topics <span id="topics-n" class="n-head"></span>
+        <button id="topics-all" class="link push" type="button">all</button>
+        <span class="sep" aria-hidden="true">·</span>
+        <button id="topics-none" class="link" type="button">none</button>
+      </span>
+      <ul id="topics" class="topics"></ul>
+    </div>
+  </aside>
+  <div class="resizer" data-side="left" title="Drag to resize, double-click to reset"></div>
+
+  <main id="main">
+    <section id="list-view" class="view" aria-label="List of abstracts">
+      <div class="list-bar">
+        <span id="list-count" class="muted"></span>
+        <label>Sort
+          <select id="sort">
+            <option value="relevance" disabled>Best match</option>
+            <option value="newest" selected>Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="title">Title A–Z</option>
+          </select>
+        </label>
+      </div>
+      <ol id="list" class="feed"></ol>
+      <div id="list-more" class="muted list-more"></div>
+    </section>
+    <section id="map-view" class="view" aria-label="Map of abstracts" hidden>
+      <div id="map"></div>
+    </section>
+    <section id="history-view" class="view" aria-label="History of the InterPore conference" hidden>
+      <div class="history">
+        <header class="h-intro">
+          <p class="eyebrow">History</p>
+          <h2>The InterPore annual meetings</h2>
+          <p id="h-about" class="lede"></p>
+          <dl id="h-totals" class="tiles"></dl>
+          <p class="muted small">Counts are of abstracts in the public record (the Indico
+            export from 2018, the books of abstracts for 2016 and 2017), not of registered
+            participants. No abstracts are online for 2009–2015.</p>
+        </header>
+
+        <section class="h-section">
+          <h3>Abstracts per meeting</h3>
+          <p class="muted small">By presentation format as each meeting recorded it; the 2016
+            and 2017 books do not say. 2020 and 2021 were online only.</p>
+          <div class="chart" data-chart="abstracts"></div>
+        </section>
+
+        <section class="h-section">
+          <h3>Meetings</h3>
+          <ol id="h-timeline" class="timeline"></ol>
+        </section>
+
+        <section class="h-section">
+          <h3>Who comes back</h3>
+          <p class="muted small">Distinct author names per meeting, split by whether the name
+            appeared in an earlier meeting with abstracts (from 2016). Names are matched as
+            written, so a changed spelling counts as a new author.</p>
+          <div class="chart" data-chart="authors"></div>
+        </section>
+
+        <section class="h-section">
+          <h3>Themes over time</h3>
+          <p class="muted small">Share of each meeting's abstracts whose title or abstract
+            mentions the theme (simple keyword match; each panel has its own scale).</p>
+          <div class="chart" data-chart="terms"></div>
+        </section>
+
+        <section class="h-section">
+          <h3>Topics by year</h3>
+          <p class="muted small">Share of each meeting's abstracts in each map topic, topics
+            ordered by the year they peaked.</p>
+          <div class="chart" data-chart="topics"></div>
+        </section>
+
+        <footer class="h-foot muted small">
+          Sources: <a href="https://www.interpore.org/interpore-events-past-upcoming" target="_blank" rel="noopener">InterPore events</a>,
+          the meeting pages on interpore.org and <a href="https://events.interpore.org/" target="_blank" rel="noopener">events.interpore.org</a>.
+          The abstracts belong to their authors.
+        </footer>
+      </div>
+    </section>
+  </main>
+  <div id="tooltip" class="tooltip" hidden></div>
+
+  <aside id="detail" class="panel detail" hidden aria-labelledby="d-title">
+    <div class="resizer" data-side="right" title="Drag to resize, double-click to reset"></div>
+    <div class="d-bar">
+      <p class="meta"><span id="d-id"></span> · <span id="d-meeting"></span> · <span id="d-format"></span></p>
+      <button id="wide" class="icon" type="button" aria-pressed="false" title="Reading mode (R)">⤢</button>
+      <button id="close" class="icon" type="button" aria-label="Close" title="Close (Esc)">×</button>
+    </div>
+    <article class="d-body">
+      <button id="d-topic" class="chip" type="button" title="Show only this topic"></button>
+      <h2 id="d-title"></h2>
+      <ul id="d-authors" class="authors"></ul>
+      <p class="d-session"><button id="d-session" class="link" type="button" title="Show only this session"></button></p>
+      <div class="d-actions">
+        <a id="d-source" class="btn primary" target="_blank" rel="noopener">Open on Indico ↗</a>
+        <button id="d-map" class="btn" type="button" title="Switch to the map and zoom to this abstract (M)">Show on map</button>
+        <button id="d-copy" class="btn" type="button">Copy link</button>
+      </div>
+      <section id="d-files-wrap" hidden>
+        <h3>Slides and posters</h3>
+        <ul id="d-files" class="files"></ul>
+      </section>
+      <section id="d-abstract-wrap">
+        <h3>Abstract</h3>
+        <div id="d-abstract" class="abstract"></div>
+      </section>
+      <section class="related">
+        <div class="tabs" role="tablist">
+          <button role="tab" data-tab="similar" aria-selected="true">Similar <span id="n-similar"></span></button>
+          <button role="tab" data-tab="people">Same authors <span id="n-people"></span></button>
+        </div>
+        <ul id="d-related" class="cards"></ul>
+        <p id="d-related-empty" class="muted" hidden></p>
+      </section>
+    </article>
+  </aside>
+</body>
+</html>

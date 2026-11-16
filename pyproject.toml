@@ -1,0 +1,36 @@
+[project]
+name = "interpore"
+version = "0.1.0"
+description = "Pipeline for the InterPore conference abstracts explorer"
+authors = [
+    { name = "mralbu", email = "1636597+mralbu@users.noreply.github.com" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "altair>=5.5",
+    "polars>=1.30",
+    "pypdfium2>=4.30",
+    "pyyaml>=6.0.2",
+    "sentence-transformers>=5.0",
+    "umap-learn>=0.5.7",
+]
+
+[project.scripts]
+interpore = "interpore.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.8"]
+
+[build-system]
+requires = ["uv_build>=0.8,<0.20"]
+build-backend = "uv_build"
+
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
