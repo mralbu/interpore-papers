@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About · InterPore Abstracts Explorer</title>
+  <meta name="description" content="How the InterPore Abstracts Explorer was built: where the abstracts come from, how they were organized, embedded, clustered into topics and mapped.">
+  <script>
+    // Apply a saved light/dark choice before first paint (no flash); otherwise follow the system.
+    try {
+      const t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    } catch {}
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="about">
+  <header class="bar">
+    <h1><a href="./">InterPore Abstracts Explorer</a></h1>
+    <nav class="links" aria-label="Site">
+      <a href="./">Explorer</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a class="gh" href="https://github.com/mralbu/interpore-papers" target="_blank" rel="noopener" aria-label="Source on GitHub" title="Source on GitHub"><svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true" fill="currentColor"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg></a>
+    </nav>
+    <button id="theme" class="theme" type="button" role="switch" aria-label="Dark theme">
+      <span class="knob" aria-hidden="true"></span>
+      <!-- Sun and moon outlines from Lucide (ISC licence), drawn in currentColor. -->
+      <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-17.07 1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg></span>
+      <span class="glyph" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></span>
+    </button>
+  </header>
+
+  <main class="prose">
+    <h1>About</h1>
+    <p class="lead">
+      The International Society for Porous Media (InterPore) has met every year since 2009, and each meeting
+      brings together several hundred talks and posters on flow, transport and mechanics in porous media, from
+      rocks and soils to batteries, filters and living tissue. The abstracts are spread over one conference site
+      per year. This site puts 8,115 of them, from eleven meetings (2016–2026), on one searchable list and one
+      topic map, and tells the history of the meeting since its start.
+    </p>
+    <p class="note">A personal project, not affiliated with InterPore. The abstracts belong to their authors.</p>
+
+    <h2>From abstract to map</h2>
+    <ol class="flow" aria-label="Pipeline">
+      <li><b>Indico + books</b><span>11 meetings</span></li>
+      <li><b>Records</b><span>8,115 abstracts</span></li>
+      <li><b>Embedding</b><span>bge-m3</span></li>
+      <li><b>Map + topics</b><span>UMAP, HDBSCAN</span></li>
+      <li><b>History</b><span>polars, Altair</span></li>
+    </ol>
+    <p>
+      Every step runs locally and is cached, so adding a meeting only processes that meeting's abstracts.
+    </p>
+
+    <h2>Abstracts, not papers</h2>
+    <p>
+      InterPore meetings collect abstracts only: there are no full papers or proceedings. What is online
+      depends on the year:
+    </p>
+    <dl>
+      <dt>2018–2026</dt><dd>Every meeting runs on the society's Indico server,
+        <a href="https://events.interpore.org/">events.interpore.org</a>, whose public export gives each
+        contribution's title, abstract, authors and affiliations, presenter, format, mini-symposium and any
+        slides or posters the authors uploaded.</dd>
+      <dt>2016, 2017</dt><dd>Before Indico, the books of abstracts are PDFs on interpore.org. Their text is parsed
+        into the same fields; each entry links to its page in the book.</dd>
+      <dt>2009–2015</dt><dd>No abstracts are online. These meetings appear only in the History view.</dd>
+    </dl>
+
+    <h2>How the abstracts were organized</h2>
+    <ul>
+      <li>Each abstract gets an ID from its meeting and its number there: <code>IP2024-164</code> is contribution
+        164 on Indico in 2024 (for 2016, the page in the book; for 2017, the submission number). The ID is its
+        link on this site: <code>#IP2024-164</code>.</li>
+      <li>Placeholders with fewer than 25 words of abstract and double submissions (same title and first author
+        in the same meeting) are dropped, about 25 in all.</li>
+      <li>Formats are reduced to Invited, Oral, Poster and Online; where a meeting did not record the format
+        (the 2016 and 2017 books, part of 2019) it shows as <em>Not recorded</em>.</li>
+      <li>Mini-symposium codes are renumbered every year (MS10 in 2024 is not MS10 in 2025), so a session is
+        always a year and a name.</li>
+    </ul>
+    <p>
+      Nothing on the site is written by an AI: titles, abstracts and sessions are the authors' and organizers'
+      own text, and everything else (topics, map, similar abstracts, statistics) is computed from it.
+    </p>
+
+    <h2>Embedding</h2>
+    <p>
+      To place abstracts by what they are about, each one becomes a vector: an embedding of its title and abstract
+      (math markup removed), made with <a href="https://huggingface.co/BAAI/bge-m3">bge-m3</a>, the model that
+      did best on the SCA papers in the <a href="https://mralbu.github.io/sca-papers/about.html">sibling
+      site</a>. Abstracts with similar vectors are about similar things. In the reading pane,
+      <strong>Similar</strong> lists the 8 nearest neighbours by cosine similarity, and <strong>Same
+      authors</strong> lists other abstracts that share an author name.
+    </p>
+
+    <h2>The map</h2>
+    <p>
+      The embeddings have 1,024 dimensions. <a href="https://umap-learn.readthedocs.io/">UMAP</a> squeezes them
+      to two for the map, keeping each abstract near its closest neighbours. Separately, it reduces them to 10
+      dimensions, where <a href="https://hdbscan.readthedocs.io/">HDBSCAN</a> finds dense groups: 39 topics of at
+      least 45 abstracts each. Abstracts that fit no group well (1,771, about one in five) are put in the
+      nearest topic and drawn fainter. Each topic's distinctive words come from c-TF-IDF over its titles and
+      abstracts (as in BERTopic); the names were written by hand after reading those words and the titles.
+    </p>
+    <dl>
+      <dt>Position</dt><dd>Nearby points are abstracts with similar text. Distances between far-apart clusters mean
+        little, and the axes have no units.</dd>
+      <dt>Colour</dt><dd>The topic.</dd>
+      <dt>Size</dt><dd>Invited talks (keynotes, plenaries) are drawn larger.</dd>
+    </dl>
+    <p>
+      The largest topic, fractures, geomechanics and numerical methods (about 1,050 abstracts), collects most of
+      the reservoir-scale modelling and is broader than the rest.
+    </p>
+
+    <h2>History</h2>
+    <p>
+      The History view lists every meeting since 2009 (place, dates, format, links to its Indico event, book of
+      abstracts and programme), from a hand-made list with a source for each fact. For the meetings with
+      abstracts it adds numbers computed from them: abstracts, sessions, authors, the share of first-time
+      authors, the two-word terms most typical of that year, the largest sessions. The charts show abstracts
+      per meeting by format, returning against new authors, the share of abstracts that mention a theme
+      (hydrogen storage, machine learning, CO2 storage, …) and how the topics' shares changed from year to year.
+      Each chart also has a table of its data.
+    </p>
+
+    <h2>What is published</h2>
+    <p>
+      Titles, authors and affiliations, abstracts, sessions, formats and links, plus the derived data above.
+      Never e-mail addresses, the books of abstracts or uploaded slides and posters: every entry links to its
+      source on events.interpore.org or interpore.org.
+    </p>
+
+    <h2>For language models</h2>
+    <p>
+      <a href="llms.txt"><code>llms.txt</code></a> lists the topics with links to one file per topic, and
+      <a href="llms-full.txt"><code>llms-full.txt</code></a> has every abstract on one line each.
+    </p>
+
+    <h2>Source</h2>
+    <p>
+      The pipeline (Python, polars, Altair) and the site (plain JavaScript with
+      <a href="https://deck.gl/">deck.gl</a>, <a href="https://lucaong.github.io/minisearch/">MiniSearch</a>,
+      <a href="https://katex.org/">KaTeX</a> and <a href="https://vega.github.io/vega-lite/">Vega-Lite</a>) are on
+      <a href="https://github.com/mralbu/interpore-papers">GitHub</a>, with the design notes and the quirks of each
+      source. A sibling site does the same for the papers of the
+      <a href="https://mralbu.github.io/sca-papers/">Society of Core Analysts symposium</a>.
+    </p>
+
+    <footer>
+      Abstracts from <a href="https://events.interpore.org/">events.interpore.org</a> and the
+      <a href="https://www.interpore.org/">interpore.org</a> books of abstracts, © their authors. Source on
+      <a href="https://github.com/mralbu/interpore-papers">GitHub</a>.
+    </footer>
+  </main>
+
+  <script>
+    // Same light/dark switch as the explorer (shared localStorage key).
+    (() => {
+      const btn = document.getElementById("theme");
+      const root = document.documentElement;
+      const isDark = () =>
+        root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      const sync = () => {
+        btn.setAttribute("aria-checked", isDark());
+        btn.title = isDark() ? "Switch to light theme" : "Switch to dark theme";
+      };
+      btn.addEventListener("click", () => {
+        const t = isDark() ? "light" : "dark";
+        root.dataset.theme = t;
+        try { localStorage.setItem("theme", t); } catch {}
+        sync();
+      });
+      matchMedia("(prefers-color-scheme: dark)").addEventListener("change", sync);
+      sync();
+    })();
+  </script>
+</body>
+</html>
