@@ -40,6 +40,7 @@ proceedings to link to. What is online:
   authors, distinctive two-word terms, largest sessions) and charts: abstracts
   per meeting by format, returning vs new authors, themes over time (hydrogen
   storage, machine learning, CO2 storage, …) and topic shares by year.
+- **About page** ([about.html](https://mralbu.github.io/interpore-papers/about.html)): how the corpus was organized, embedded, clustered and mapped, in plain language.
 - `llms.txt`, per-topic `llms/*.txt` and `llms-full.txt` for language models.
 
 ## What is published

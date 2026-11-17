@@ -114,6 +114,9 @@ Audience: personal exploration.
 - `data/` (git-ignored): `raw/indico/<event>.json`, `raw/books/<year>.pdf`,
   `records.json`, `records-report.txt`, `embeddings/<model>/`,
   `topics/topics.json`.
+- `site/about.html`: hand-written About page (corpus, embedding, map, citations/history,
+  publishing boundary; numbers in it are copied by hand: update them after a rebuild
+  changes the counts). The explorer header links to it and to the GitHub repo.
 - `site/` (published): `index.html`, `app.js`, `style.css`, generated
   `data/` (`papers.json`, `abstracts.json`, `topics.json`, `history.json`,
   `charts/`), `llms.txt`, `llms-full.txt`, `llms/`.
